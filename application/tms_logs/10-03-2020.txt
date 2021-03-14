@@ -1,0 +1,1276 @@
+Log file created at 10-03-2020 09:40:37 AM
+
+---------------------------------------------------------------------
+
+10-03-2020 09:40:37 AM user_id(3) : Logged in.
+
+---------------------------------------------------------------------
+
+10-03-2020 09:46:39 AM user_id(10) : Logged in.
+
+---------------------------------------------------------------------
+
+10-03-2020 09:58:21 AM user_id(10) : INSERT INTO `ticketing` (`generated_by_user_id`, `ticketing_titile`, `preferred_user_id`, `generated_by_department_id`, `assigned_to_department_id`, `school_id`, `campus_id`, `product_id`, `module_id`, `priority_id`, `user_school_id`, `ticketing_min_resolve_time`, `ticketing_max_resolve_time`, `ticketing_query`, `query_type_id`, `ticketing_current_status`, `query_generated_by_id`, `ticketing_status`) VALUES ('10', 'Remove mentioned months', '3', '3', '1', '171', '', '5', '', '1', '', '2020-03-10 12:00:00', '2020-03-10 13:00:00', '<p>Remove April till June months from all SM PUBLIC ports except 28.smpublic (don\'t remove from 28.smpublic)</p><p>For any confusion feel free to ask&nbsp;<br></p>', '2', 1, '4', 'active')
+
+---------------------------------------------------------------------
+
+10-03-2020 09:58:21 AM user_id(10) : INSERT INTO `ticketing_media` (`filename`, `ticketing_media_status`, `ticketing_id`, `user_id`, `file_short_url`) VALUES ('SMPUBLIC.png', 'active', 871, '10', 'c30f4e8967')
+
+---------------------------------------------------------------------
+
+10-03-2020 09:58:21 AM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','New ticket created by Maira Sami','ticket',871,'8'), ('10','10','unread','active','New ticket created by Maira Sami','ticket',871,'9'), ('10','10','unread','active','New ticket created by Maira Sami','ticket',871,'2')
+
+---------------------------------------------------------------------
+
+10-03-2020 10:05:09 AM user_id(2) : Logged in.
+
+---------------------------------------------------------------------
+
+10-03-2020 10:05:24 AM user_id(2) : Logged in.
+
+---------------------------------------------------------------------
+
+10-03-2020 10:05:30 AM user_id(2) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '871'
+AND `user_id` = '2'
+
+---------------------------------------------------------------------
+
+10-03-2020 10:05:42 AM user_id(2) : UPDATE `ticketing` SET `assigned_to_user_id` = '3', `assigned_to_user_at` = '2020-03-10 10:05:42', `ticketing_current_status` = 2
+WHERE `ticketing_id` = '871'
+
+---------------------------------------------------------------------
+
+10-03-2020 10:05:42 AM user_id(2) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('2','2','unread','active','Ticket assigned to you','ticket','871','3')
+
+---------------------------------------------------------------------
+
+10-03-2020 10:05:47 AM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '871'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+10-03-2020 10:06:05 AM user_id(3) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`) VALUES ('comment', 'ok working', 'active', '3', '871')
+
+---------------------------------------------------------------------
+
+10-03-2020 10:06:05 AM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','871','10'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','871','8'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','871','9'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','871','2')
+
+---------------------------------------------------------------------
+
+10-03-2020 10:14:49 AM user_id(9) : Logged in.
+
+---------------------------------------------------------------------
+
+10-03-2020 10:19:06 AM user_id(10) : INSERT INTO `ticketing` (`generated_by_user_id`, `ticketing_titile`, `preferred_user_id`, `generated_by_department_id`, `assigned_to_department_id`, `school_id`, `campus_id`, `product_id`, `module_id`, `priority_id`, `user_school_id`, `ticketing_min_resolve_time`, `ticketing_max_resolve_time`, `ticketing_query`, `query_type_id`, `ticketing_current_status`, `query_generated_by_id`, `ticketing_status`, `assigned_to_user_id`, `assigned_to_user_at`, `assigned_by_user_id`) VALUES ('10', 'Discuss about advance fee ', '10', '3', '3', '121', '', '7', '', '2', '', '2020-03-10 00:00:00', '2020-03-10 00:00:00', '', '4', 2, '1', 'active', '10', '2020-03-10 10:19:06', '10')
+
+---------------------------------------------------------------------
+
+10-03-2020 10:19:06 AM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','New ticket created by Maira Sami','ticket',872,'8'), ('10','10','unread','active','New ticket created by Maira Sami','ticket',872,'9')
+
+---------------------------------------------------------------------
+
+10-03-2020 10:19:06 AM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Ticket assigned to you','ticket',872,'10')
+
+---------------------------------------------------------------------
+
+10-03-2020 10:24:48 AM user_id(10) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '872'
+AND `user_id` = '10'
+
+---------------------------------------------------------------------
+
+10-03-2020 10:25:07 AM user_id(10) : UPDATE `ticketing` SET `ticketing_current_status` = '5'
+WHERE `ticketing_id` = '872'
+
+---------------------------------------------------------------------
+
+10-03-2020 10:25:07 AM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Status changed by Maira Sami','ticket','872','8'), ('10','10','unread','active','Status changed by Maira Sami','ticket','872','9')
+
+---------------------------------------------------------------------
+
+10-03-2020 10:29:08 AM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '843'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+10-03-2020 10:29:32 AM user_id(3) : INSERT INTO `ticketing_media` (`filename`, `ticketing_media_status`, `ticketing_id`, `user_id`, `file_short_url`) VALUES ('Screenshot_from_2020-03-10_10-29-34.png', 'active', '843', '3', 'f06f334d5a')
+
+---------------------------------------------------------------------
+
+10-03-2020 10:29:32 AM user_id(3) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`, `ticketing_media_id`) VALUES ('comment', 'fees in drop down updated', 'active', '3', '843', 750)
+
+---------------------------------------------------------------------
+
+10-03-2020 10:29:32 AM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','843','10'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','843','8'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','843','9'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','843','2')
+
+---------------------------------------------------------------------
+
+10-03-2020 10:29:57 AM user_id(3) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`) VALUES ('comment', 'sample caie-2020 fees', 'active', '3', '843')
+
+---------------------------------------------------------------------
+
+10-03-2020 10:29:57 AM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','843','10'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','843','8'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','843','9'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','843','2')
+
+---------------------------------------------------------------------
+
+10-03-2020 10:30:02 AM user_id(3) : UPDATE `ticketing` SET `ticketing_current_status` = '3'
+WHERE `ticketing_id` = '843'
+
+---------------------------------------------------------------------
+
+10-03-2020 10:30:02 AM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','843','10'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','843','8'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','843','9'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','843','2')
+
+---------------------------------------------------------------------
+
+10-03-2020 10:30:10 AM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '871'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+10-03-2020 10:34:47 AM user_id(10) : INSERT INTO `ticketing` (`generated_by_user_id`, `ticketing_titile`, `preferred_user_id`, `generated_by_department_id`, `assigned_to_department_id`, `school_id`, `campus_id`, `product_id`, `module_id`, `priority_id`, `user_school_id`, `ticketing_min_resolve_time`, `ticketing_max_resolve_time`, `ticketing_query`, `query_type_id`, `ticketing_current_status`, `query_generated_by_id`, `ticketing_status`, `assigned_to_user_id`, `assigned_to_user_at`, `assigned_by_user_id`) VALUES ('10', 'Discuss Collection Verification Report', '10', '3', '3', '125', '', '8', '', '2', '', '2020-03-10 00:00:00', '2020-03-10 00:00:00', '', '4', 2, '1', 'active', '10', '2020-03-10 10:34:47', '10')
+
+---------------------------------------------------------------------
+
+10-03-2020 10:34:47 AM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','New ticket created by Maira Sami','ticket',873,'8'), ('10','10','unread','active','New ticket created by Maira Sami','ticket',873,'9')
+
+---------------------------------------------------------------------
+
+10-03-2020 10:34:48 AM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Ticket assigned to you','ticket',873,'10')
+
+---------------------------------------------------------------------
+
+10-03-2020 10:34:53 AM user_id(10) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '873'
+AND `user_id` = '10'
+
+---------------------------------------------------------------------
+
+10-03-2020 10:34:56 AM user_id(10) : UPDATE `ticketing` SET `ticketing_current_status` = '5'
+WHERE `ticketing_id` = '873'
+
+---------------------------------------------------------------------
+
+10-03-2020 10:34:56 AM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Status changed by Maira Sami','ticket','873','8'), ('10','10','unread','active','Status changed by Maira Sami','ticket','873','9')
+
+---------------------------------------------------------------------
+
+10-03-2020 10:36:06 AM user_id(10) : INSERT INTO `ticketing` (`generated_by_user_id`, `ticketing_titile`, `preferred_user_id`, `generated_by_department_id`, `assigned_to_department_id`, `school_id`, `campus_id`, `product_id`, `module_id`, `priority_id`, `user_school_id`, `ticketing_min_resolve_time`, `ticketing_max_resolve_time`, `ticketing_query`, `query_type_id`, `ticketing_current_status`, `query_generated_by_id`, `ticketing_status`, `assigned_to_user_id`, `assigned_to_user_at`, `assigned_by_user_id`) VALUES ('10', 'TF-June charged ', '10', '3', '3', '59', '', '8', '', '2', '', '2020-03-10 00:00:00', '2020-03-10 00:00:00', '', '4', 2, '4', 'active', '10', '2020-03-10 10:36:06', '10')
+
+---------------------------------------------------------------------
+
+10-03-2020 10:36:06 AM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','New ticket created by Maira Sami','ticket',874,'8'), ('10','10','unread','active','New ticket created by Maira Sami','ticket',874,'9')
+
+---------------------------------------------------------------------
+
+10-03-2020 10:36:06 AM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Ticket assigned to you','ticket',874,'10')
+
+---------------------------------------------------------------------
+
+10-03-2020 10:36:17 AM user_id(10) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '874'
+AND `user_id` = '10'
+
+---------------------------------------------------------------------
+
+10-03-2020 10:36:19 AM user_id(10) : UPDATE `ticketing` SET `ticketing_current_status` = '5'
+WHERE `ticketing_id` = '874'
+
+---------------------------------------------------------------------
+
+10-03-2020 10:36:19 AM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Status changed by Maira Sami','ticket','874','8'), ('10','10','unread','active','Status changed by Maira Sami','ticket','874','9')
+
+---------------------------------------------------------------------
+
+10-03-2020 10:58:31 AM user_id(10) : INSERT INTO `ticketing` (`generated_by_user_id`, `ticketing_titile`, `preferred_user_id`, `generated_by_department_id`, `assigned_to_department_id`, `school_id`, `campus_id`, `product_id`, `module_id`, `priority_id`, `user_school_id`, `ticketing_min_resolve_time`, `ticketing_max_resolve_time`, `ticketing_query`, `query_type_id`, `ticketing_current_status`, `query_generated_by_id`, `ticketing_status`) VALUES ('10', 'Add March-2020 month in drop down', '3', '3', '1', '43', '', '6', '', '1', '', '2020-03-10 00:00:00', '2020-03-10 00:00:00', '', '2', 1, '1', 'active')
+
+---------------------------------------------------------------------
+
+10-03-2020 10:58:31 AM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','New ticket created by Maira Sami','ticket',875,'8'), ('10','10','unread','active','New ticket created by Maira Sami','ticket',875,'9'), ('10','10','unread','active','New ticket created by Maira Sami','ticket',875,'2')
+
+---------------------------------------------------------------------
+
+10-03-2020 10:58:42 AM user_id(10) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '875'
+AND `user_id` = '10'
+
+---------------------------------------------------------------------
+
+10-03-2020 10:58:46 AM user_id(10) : UPDATE `ticketing` SET `ticketing_current_status` = '5'
+WHERE `ticketing_id` = '875'
+
+---------------------------------------------------------------------
+
+10-03-2020 10:58:46 AM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Status changed by Maira Sami','ticket','875','8'), ('10','10','unread','active','Status changed by Maira Sami','ticket','875','9'), ('10','10','unread','active','Status changed by Maira Sami','ticket','875','2')
+
+---------------------------------------------------------------------
+
+10-03-2020 11:16:46 AM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '871'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+10-03-2020 11:17:08 AM user_id(3) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`) VALUES ('comment', 'discussed . Sir arshad said to hold the ticket for a day', 'active', '3', '871')
+
+---------------------------------------------------------------------
+
+10-03-2020 11:17:08 AM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','871','10'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','871','8'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','871','9'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','871','2')
+
+---------------------------------------------------------------------
+
+10-03-2020 11:17:15 AM user_id(3) : UPDATE `ticketing` SET `ticketing_current_status` = '7'
+WHERE `ticketing_id` = '871'
+
+---------------------------------------------------------------------
+
+10-03-2020 11:17:15 AM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','871','10'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','871','8'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','871','9'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','871','2')
+
+---------------------------------------------------------------------
+
+10-03-2020 11:17:31 AM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '826'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+10-03-2020 11:24:32 AM user_id(2) : Logged in.
+
+---------------------------------------------------------------------
+
+10-03-2020 11:24:43 AM user_id(2) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '875'
+AND `user_id` = '2'
+
+---------------------------------------------------------------------
+
+10-03-2020 11:24:51 AM user_id(2) : UPDATE `ticketing` SET `assigned_to_user_id` = '3', `assigned_to_user_at` = '2020-03-10 11:24:51', `ticketing_current_status` = 2
+WHERE `ticketing_id` = '875'
+
+---------------------------------------------------------------------
+
+10-03-2020 11:24:51 AM user_id(2) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('2','2','unread','active','Ticket assigned to you','ticket','875','3')
+
+---------------------------------------------------------------------
+
+10-03-2020 11:24:58 AM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '875'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+10-03-2020 11:25:08 AM user_id(3) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`) VALUES ('comment', 'updated', 'active', '3', '875')
+
+---------------------------------------------------------------------
+
+10-03-2020 11:25:08 AM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','875','10'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','875','8'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','875','9'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','875','2')
+
+---------------------------------------------------------------------
+
+10-03-2020 11:25:13 AM user_id(3) : UPDATE `ticketing` SET `ticketing_current_status` = '3'
+WHERE `ticketing_id` = '875'
+
+---------------------------------------------------------------------
+
+10-03-2020 11:25:13 AM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','875','10'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','875','8'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','875','9'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','875','2')
+
+---------------------------------------------------------------------
+
+10-03-2020 11:25:26 AM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '875'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+10-03-2020 11:25:45 AM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '875'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+10-03-2020 11:28:48 AM user_id(10) : INSERT INTO `ticketing` (`generated_by_user_id`, `ticketing_titile`, `preferred_user_id`, `generated_by_department_id`, `assigned_to_department_id`, `school_id`, `campus_id`, `product_id`, `module_id`, `priority_id`, `user_school_id`, `ticketing_min_resolve_time`, `ticketing_max_resolve_time`, `ticketing_query`, `query_type_id`, `ticketing_current_status`, `query_generated_by_id`, `ticketing_status`, `assigned_to_user_id`, `assigned_to_user_at`, `assigned_by_user_id`) VALUES ('10', 'Wants to know junior user password', '10', '3', '3', '28', '', '7', '', '2', '', '2020-03-10 00:00:00', '2020-03-10 00:00:00', '', '4', 2, '3', 'active', '10', '2020-03-10 11:28:48', '10')
+
+---------------------------------------------------------------------
+
+10-03-2020 11:28:48 AM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','New ticket created by Maira Sami','ticket',876,'8'), ('10','10','unread','active','New ticket created by Maira Sami','ticket',876,'9')
+
+---------------------------------------------------------------------
+
+10-03-2020 11:28:48 AM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Ticket assigned to you','ticket',876,'10')
+
+---------------------------------------------------------------------
+
+10-03-2020 11:29:00 AM user_id(10) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '876'
+AND `user_id` = '10'
+
+---------------------------------------------------------------------
+
+10-03-2020 11:29:03 AM user_id(10) : UPDATE `ticketing` SET `ticketing_current_status` = '5'
+WHERE `ticketing_id` = '876'
+
+---------------------------------------------------------------------
+
+10-03-2020 11:29:03 AM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Status changed by Maira Sami','ticket','876','8'), ('10','10','unread','active','Status changed by Maira Sami','ticket','876','9')
+
+---------------------------------------------------------------------
+
+10-03-2020 11:30:42 AM user_id(10) : INSERT INTO `ticketing` (`generated_by_user_id`, `ticketing_titile`, `preferred_user_id`, `generated_by_department_id`, `assigned_to_department_id`, `school_id`, `campus_id`, `product_id`, `module_id`, `priority_id`, `user_school_id`, `ticketing_min_resolve_time`, `ticketing_max_resolve_time`, `ticketing_query`, `query_type_id`, `ticketing_current_status`, `query_generated_by_id`, `ticketing_status`, `assigned_to_user_id`, `assigned_to_user_at`, `assigned_by_user_id`) VALUES ('10', 'How to send single sms ', '10', '3', '3', '40', '', '7', '', '4', '', '2020-03-10 00:00:00', '2020-03-10 00:00:00', '', '4', 2, '3', 'active', '10', '2020-03-10 11:30:42', '10')
+
+---------------------------------------------------------------------
+
+10-03-2020 11:30:42 AM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','New ticket created by Maira Sami','ticket',877,'8'), ('10','10','unread','active','New ticket created by Maira Sami','ticket',877,'9')
+
+---------------------------------------------------------------------
+
+10-03-2020 11:30:42 AM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Ticket assigned to you','ticket',877,'10')
+
+---------------------------------------------------------------------
+
+10-03-2020 11:30:48 AM user_id(10) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '877'
+AND `user_id` = '10'
+
+---------------------------------------------------------------------
+
+10-03-2020 11:30:51 AM user_id(10) : UPDATE `ticketing` SET `ticketing_current_status` = '5'
+WHERE `ticketing_id` = '877'
+
+---------------------------------------------------------------------
+
+10-03-2020 11:30:51 AM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Status changed by Maira Sami','ticket','877','8'), ('10','10','unread','active','Status changed by Maira Sami','ticket','877','9')
+
+---------------------------------------------------------------------
+
+10-03-2020 11:31:09 AM user_id(10) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '875'
+AND `user_id` = '10'
+
+---------------------------------------------------------------------
+
+10-03-2020 11:31:17 AM user_id(10) : UPDATE `ticketing` SET `ticketing_current_status` = '5'
+WHERE `ticketing_id` = '875'
+
+---------------------------------------------------------------------
+
+10-03-2020 11:31:17 AM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Status changed by Maira Sami','ticket','875','3'), ('10','10','unread','active','Status changed by Maira Sami','ticket','875','8'), ('10','10','unread','active','Status changed by Maira Sami','ticket','875','9'), ('10','10','unread','active','Status changed by Maira Sami','ticket','875','2')
+
+---------------------------------------------------------------------
+
+10-03-2020 11:31:55 AM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '875'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+10-03-2020 11:32:09 AM user_id(10) : INSERT INTO `ticketing` (`generated_by_user_id`, `ticketing_titile`, `preferred_user_id`, `generated_by_department_id`, `assigned_to_department_id`, `school_id`, `campus_id`, `product_id`, `module_id`, `priority_id`, `user_school_id`, `ticketing_min_resolve_time`, `ticketing_max_resolve_time`, `ticketing_query`, `query_type_id`, `ticketing_current_status`, `query_generated_by_id`, `ticketing_status`, `assigned_to_user_id`, `assigned_to_user_at`, `assigned_by_user_id`) VALUES ('10', 'SMS sent through SIMSIN', '10', '3', '3', '82', '', '8', '', '2', '', '2020-03-10 00:00:00', '2020-03-10 00:00:00', '', '4', 2, '1', 'active', '10', '2020-03-10 11:32:09', '10')
+
+---------------------------------------------------------------------
+
+10-03-2020 11:32:09 AM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','New ticket created by Maira Sami','ticket',878,'8'), ('10','10','unread','active','New ticket created by Maira Sami','ticket',878,'9')
+
+---------------------------------------------------------------------
+
+10-03-2020 11:32:10 AM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Ticket assigned to you','ticket',878,'10')
+
+---------------------------------------------------------------------
+
+10-03-2020 11:32:12 AM user_id(10) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '878'
+AND `user_id` = '10'
+
+---------------------------------------------------------------------
+
+10-03-2020 11:32:16 AM user_id(10) : UPDATE `ticketing` SET `ticketing_current_status` = '5'
+WHERE `ticketing_id` = '878'
+
+---------------------------------------------------------------------
+
+10-03-2020 11:32:16 AM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Status changed by Maira Sami','ticket','878','8'), ('10','10','unread','active','Status changed by Maira Sami','ticket','878','9')
+
+---------------------------------------------------------------------
+
+10-03-2020 11:44:40 AM user_id(2) : Logged in.
+
+---------------------------------------------------------------------
+
+10-03-2020 12:19:16 PM user_id(10) : INSERT INTO `ticketing` (`generated_by_user_id`, `ticketing_titile`, `preferred_user_id`, `generated_by_department_id`, `assigned_to_department_id`, `school_id`, `campus_id`, `product_id`, `module_id`, `priority_id`, `user_school_id`, `ticketing_min_resolve_time`, `ticketing_max_resolve_time`, `ticketing_query`, `query_type_id`, `ticketing_current_status`, `query_generated_by_id`, `ticketing_status`, `assigned_to_user_id`, `assigned_to_user_at`, `assigned_by_user_id`) VALUES ('10', 'SMS sent through SIMSIN', '10', '3', '3', '34', '', '5', '', '2', '', '2020-03-10 00:00:00', '2020-03-10 00:00:00', '', '4', 2, '1', 'active', '10', '2020-03-10 12:19:16', '10')
+
+---------------------------------------------------------------------
+
+10-03-2020 12:19:16 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','New ticket created by Maira Sami','ticket',879,'8'), ('10','10','unread','active','New ticket created by Maira Sami','ticket',879,'9')
+
+---------------------------------------------------------------------
+
+10-03-2020 12:19:16 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Ticket assigned to you','ticket',879,'10')
+
+---------------------------------------------------------------------
+
+10-03-2020 12:19:29 PM user_id(10) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '879'
+AND `user_id` = '10'
+
+---------------------------------------------------------------------
+
+10-03-2020 12:19:34 PM user_id(10) : UPDATE `ticketing` SET `ticketing_current_status` = '5'
+WHERE `ticketing_id` = '879'
+
+---------------------------------------------------------------------
+
+10-03-2020 12:19:34 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Status changed by Maira Sami','ticket','879','8'), ('10','10','unread','active','Status changed by Maira Sami','ticket','879','9')
+
+---------------------------------------------------------------------
+
+10-03-2020 12:21:22 PM user_id(10) : INSERT INTO `ticketing` (`generated_by_user_id`, `ticketing_titile`, `preferred_user_id`, `generated_by_department_id`, `assigned_to_department_id`, `school_id`, `campus_id`, `product_id`, `module_id`, `priority_id`, `user_school_id`, `ticketing_min_resolve_time`, `ticketing_max_resolve_time`, `ticketing_query`, `query_type_id`, `ticketing_current_status`, `query_generated_by_id`, `ticketing_status`, `assigned_to_user_id`, `assigned_to_user_at`, `assigned_by_user_id`) VALUES ('10', 'Discussed amount difference in collection summary and Deposit Report', '10', '3', '3', '45', '', '7', '', '4', '', '2020-03-10 00:00:00', '2020-03-10 00:00:00', '', '4', 2, '1', 'active', '10', '2020-03-10 12:21:22', '10')
+
+---------------------------------------------------------------------
+
+10-03-2020 12:21:22 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','New ticket created by Maira Sami','ticket',880,'8'), ('10','10','unread','active','New ticket created by Maira Sami','ticket',880,'9')
+
+---------------------------------------------------------------------
+
+10-03-2020 12:21:22 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Ticket assigned to you','ticket',880,'10')
+
+---------------------------------------------------------------------
+
+10-03-2020 12:21:31 PM user_id(10) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '880'
+AND `user_id` = '10'
+
+---------------------------------------------------------------------
+
+10-03-2020 12:21:34 PM user_id(10) : UPDATE `ticketing` SET `ticketing_current_status` = '5'
+WHERE `ticketing_id` = '880'
+
+---------------------------------------------------------------------
+
+10-03-2020 12:21:34 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Status changed by Maira Sami','ticket','880','8'), ('10','10','unread','active','Status changed by Maira Sami','ticket','880','9')
+
+---------------------------------------------------------------------
+
+10-03-2020 12:22:21 PM user_id(10) : INSERT INTO `ticketing` (`generated_by_user_id`, `ticketing_titile`, `preferred_user_id`, `generated_by_department_id`, `assigned_to_department_id`, `school_id`, `campus_id`, `product_id`, `module_id`, `priority_id`, `user_school_id`, `ticketing_min_resolve_time`, `ticketing_max_resolve_time`, `ticketing_query`, `query_type_id`, `ticketing_current_status`, `query_generated_by_id`, `ticketing_status`, `assigned_to_user_id`, `assigned_to_user_at`, `assigned_by_user_id`) VALUES ('10', 'Rollback TF-June and TF-May', '10', '3', '3', '166', '', '5', '', '1', '', '2020-03-10 00:00:00', '2020-03-10 00:00:00', '', '4', 2, '4', 'active', '10', '2020-03-10 12:22:21', '10')
+
+---------------------------------------------------------------------
+
+10-03-2020 12:22:21 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','New ticket created by Maira Sami','ticket',881,'8'), ('10','10','unread','active','New ticket created by Maira Sami','ticket',881,'9')
+
+---------------------------------------------------------------------
+
+10-03-2020 12:22:22 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Ticket assigned to you','ticket',881,'10')
+
+---------------------------------------------------------------------
+
+10-03-2020 12:22:25 PM user_id(10) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '881'
+AND `user_id` = '10'
+
+---------------------------------------------------------------------
+
+10-03-2020 12:22:28 PM user_id(10) : UPDATE `ticketing` SET `ticketing_current_status` = '5'
+WHERE `ticketing_id` = '881'
+
+---------------------------------------------------------------------
+
+10-03-2020 12:22:28 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Status changed by Maira Sami','ticket','881','8'), ('10','10','unread','active','Status changed by Maira Sami','ticket','881','9')
+
+---------------------------------------------------------------------
+
+10-03-2020 12:24:37 PM user_id(10) : INSERT INTO `ticketing` (`generated_by_user_id`, `ticketing_titile`, `preferred_user_id`, `generated_by_department_id`, `assigned_to_department_id`, `school_id`, `campus_id`, `product_id`, `module_id`, `priority_id`, `user_school_id`, `ticketing_min_resolve_time`, `ticketing_max_resolve_time`, `ticketing_query`, `query_type_id`, `ticketing_current_status`, `query_generated_by_id`, `ticketing_status`, `assigned_to_user_id`, `assigned_to_user_at`, `assigned_by_user_id`) VALUES ('10', 'Rollback TF-June and TF-May', '10', '3', '3', '153', '', '6', '', '1', '', '2020-03-10 00:00:00', '2020-03-10 00:00:00', '', '4', 2, '4', 'active', '10', '2020-03-10 12:24:37', '10')
+
+---------------------------------------------------------------------
+
+10-03-2020 12:24:37 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','New ticket created by Maira Sami','ticket',882,'8'), ('10','10','unread','active','New ticket created by Maira Sami','ticket',882,'9')
+
+---------------------------------------------------------------------
+
+10-03-2020 12:24:38 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Ticket assigned to you','ticket',882,'10')
+
+---------------------------------------------------------------------
+
+10-03-2020 12:24:41 PM user_id(10) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '882'
+AND `user_id` = '10'
+
+---------------------------------------------------------------------
+
+10-03-2020 12:24:44 PM user_id(10) : UPDATE `ticketing` SET `ticketing_current_status` = '5'
+WHERE `ticketing_id` = '882'
+
+---------------------------------------------------------------------
+
+10-03-2020 12:24:44 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Status changed by Maira Sami','ticket','882','8'), ('10','10','unread','active','Status changed by Maira Sami','ticket','882','9')
+
+---------------------------------------------------------------------
+
+10-03-2020 12:25:07 PM user_id(10) : INSERT INTO `ticketing` (`generated_by_user_id`, `ticketing_titile`, `preferred_user_id`, `generated_by_department_id`, `assigned_to_department_id`, `school_id`, `campus_id`, `product_id`, `module_id`, `priority_id`, `user_school_id`, `ticketing_min_resolve_time`, `ticketing_max_resolve_time`, `ticketing_query`, `query_type_id`, `ticketing_current_status`, `query_generated_by_id`, `ticketing_status`, `assigned_to_user_id`, `assigned_to_user_at`, `assigned_by_user_id`) VALUES ('10', 'Rollback TF-June and TF-May', '10', '3', '3', '168', '', '5', '', '1', '', '2020-03-10 00:00:00', '2020-03-10 00:00:00', '', '4', 2, '4', 'active', '10', '2020-03-10 12:25:07', '10')
+
+---------------------------------------------------------------------
+
+10-03-2020 12:25:07 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','New ticket created by Maira Sami','ticket',883,'8'), ('10','10','unread','active','New ticket created by Maira Sami','ticket',883,'9')
+
+---------------------------------------------------------------------
+
+10-03-2020 12:25:08 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Ticket assigned to you','ticket',883,'10')
+
+---------------------------------------------------------------------
+
+10-03-2020 12:25:11 PM user_id(10) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '883'
+AND `user_id` = '10'
+
+---------------------------------------------------------------------
+
+10-03-2020 12:25:15 PM user_id(10) : UPDATE `ticketing` SET `ticketing_current_status` = '5'
+WHERE `ticketing_id` = '883'
+
+---------------------------------------------------------------------
+
+10-03-2020 12:25:15 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Status changed by Maira Sami','ticket','883','8'), ('10','10','unread','active','Status changed by Maira Sami','ticket','883','9')
+
+---------------------------------------------------------------------
+
+10-03-2020 12:25:46 PM user_id(10) : INSERT INTO `ticketing` (`generated_by_user_id`, `ticketing_titile`, `preferred_user_id`, `generated_by_department_id`, `assigned_to_department_id`, `school_id`, `campus_id`, `product_id`, `module_id`, `priority_id`, `user_school_id`, `ticketing_min_resolve_time`, `ticketing_max_resolve_time`, `ticketing_query`, `query_type_id`, `ticketing_current_status`, `query_generated_by_id`, `ticketing_status`, `assigned_to_user_id`, `assigned_to_user_at`, `assigned_by_user_id`) VALUES ('10', 'Rollback TF-June and TF-May', '10', '3', '3', '169', '', '6', '', '4', '', '2020-03-10 00:00:00', '2020-03-10 00:00:00', '', '4', 2, '4', 'active', '10', '2020-03-10 12:25:46', '10')
+
+---------------------------------------------------------------------
+
+10-03-2020 12:25:46 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','New ticket created by Maira Sami','ticket',884,'8'), ('10','10','unread','active','New ticket created by Maira Sami','ticket',884,'9')
+
+---------------------------------------------------------------------
+
+10-03-2020 12:25:47 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Ticket assigned to you','ticket',884,'10')
+
+---------------------------------------------------------------------
+
+10-03-2020 12:25:50 PM user_id(10) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '884'
+AND `user_id` = '10'
+
+---------------------------------------------------------------------
+
+10-03-2020 12:25:54 PM user_id(10) : UPDATE `ticketing` SET `ticketing_current_status` = '5'
+WHERE `ticketing_id` = '884'
+
+---------------------------------------------------------------------
+
+10-03-2020 12:25:54 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Status changed by Maira Sami','ticket','884','8'), ('10','10','unread','active','Status changed by Maira Sami','ticket','884','9')
+
+---------------------------------------------------------------------
+
+10-03-2020 12:26:22 PM user_id(10) : INSERT INTO `ticketing` (`generated_by_user_id`, `ticketing_titile`, `preferred_user_id`, `generated_by_department_id`, `assigned_to_department_id`, `school_id`, `campus_id`, `product_id`, `module_id`, `priority_id`, `user_school_id`, `ticketing_min_resolve_time`, `ticketing_max_resolve_time`, `ticketing_query`, `query_type_id`, `ticketing_current_status`, `query_generated_by_id`, `ticketing_status`, `assigned_to_user_id`, `assigned_to_user_at`, `assigned_by_user_id`) VALUES ('10', 'Rollback TF-June and TF-May', '10', '3', '3', '162', '', '5', '', '1', '', '2020-03-10 00:00:00', '2020-03-10 00:00:00', '', '4', 2, '4', 'active', '10', '2020-03-10 12:26:22', '10')
+
+---------------------------------------------------------------------
+
+10-03-2020 12:26:22 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','New ticket created by Maira Sami','ticket',885,'8'), ('10','10','unread','active','New ticket created by Maira Sami','ticket',885,'9')
+
+---------------------------------------------------------------------
+
+10-03-2020 12:26:23 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Ticket assigned to you','ticket',885,'10')
+
+---------------------------------------------------------------------
+
+10-03-2020 12:26:27 PM user_id(10) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '885'
+AND `user_id` = '10'
+
+---------------------------------------------------------------------
+
+10-03-2020 12:26:31 PM user_id(10) : UPDATE `ticketing` SET `ticketing_current_status` = '5'
+WHERE `ticketing_id` = '885'
+
+---------------------------------------------------------------------
+
+10-03-2020 12:26:31 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Status changed by Maira Sami','ticket','885','8'), ('10','10','unread','active','Status changed by Maira Sami','ticket','885','9')
+
+---------------------------------------------------------------------
+
+10-03-2020 12:26:54 PM user_id(10) : INSERT INTO `ticketing` (`generated_by_user_id`, `ticketing_titile`, `preferred_user_id`, `generated_by_department_id`, `assigned_to_department_id`, `school_id`, `campus_id`, `product_id`, `module_id`, `priority_id`, `user_school_id`, `ticketing_min_resolve_time`, `ticketing_max_resolve_time`, `ticketing_query`, `query_type_id`, `ticketing_current_status`, `query_generated_by_id`, `ticketing_status`, `assigned_to_user_id`, `assigned_to_user_at`, `assigned_by_user_id`) VALUES ('10', 'Rollback TF-June and TF-May', '10', '3', '3', '170', '', '6', '', '1', '', '2020-03-10 00:00:00', '2020-03-10 00:00:00', '', '4', 2, '4', 'active', '10', '2020-03-10 12:26:54', '10')
+
+---------------------------------------------------------------------
+
+10-03-2020 12:26:54 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','New ticket created by Maira Sami','ticket',886,'8'), ('10','10','unread','active','New ticket created by Maira Sami','ticket',886,'9')
+
+---------------------------------------------------------------------
+
+10-03-2020 12:26:55 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Ticket assigned to you','ticket',886,'10')
+
+---------------------------------------------------------------------
+
+10-03-2020 12:27:00 PM user_id(10) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '886'
+AND `user_id` = '10'
+
+---------------------------------------------------------------------
+
+10-03-2020 12:27:04 PM user_id(10) : UPDATE `ticketing` SET `ticketing_current_status` = '5'
+WHERE `ticketing_id` = '886'
+
+---------------------------------------------------------------------
+
+10-03-2020 12:27:04 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Status changed by Maira Sami','ticket','886','8'), ('10','10','unread','active','Status changed by Maira Sami','ticket','886','9')
+
+---------------------------------------------------------------------
+
+10-03-2020 12:27:12 PM user_id(10) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '886'
+AND `user_id` = '10'
+
+---------------------------------------------------------------------
+
+10-03-2020 12:27:39 PM user_id(10) : INSERT INTO `ticketing` (`generated_by_user_id`, `ticketing_titile`, `preferred_user_id`, `generated_by_department_id`, `assigned_to_department_id`, `school_id`, `campus_id`, `product_id`, `module_id`, `priority_id`, `user_school_id`, `ticketing_min_resolve_time`, `ticketing_max_resolve_time`, `ticketing_query`, `query_type_id`, `ticketing_current_status`, `query_generated_by_id`, `ticketing_status`, `assigned_to_user_id`, `assigned_to_user_at`, `assigned_by_user_id`) VALUES ('10', 'Rollback TF-June and TF-May', '10', '3', '3', '171', '', '5', '', '1', '', '2020-03-10 00:00:00', '2020-03-10 00:00:00', '', '4', 2, '4', 'active', '10', '2020-03-10 12:27:39', '10')
+
+---------------------------------------------------------------------
+
+10-03-2020 12:27:39 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','New ticket created by Maira Sami','ticket',887,'8'), ('10','10','unread','active','New ticket created by Maira Sami','ticket',887,'9')
+
+---------------------------------------------------------------------
+
+10-03-2020 12:27:40 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Ticket assigned to you','ticket',887,'10')
+
+---------------------------------------------------------------------
+
+10-03-2020 12:27:43 PM user_id(10) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '887'
+AND `user_id` = '10'
+
+---------------------------------------------------------------------
+
+10-03-2020 12:27:46 PM user_id(10) : UPDATE `ticketing` SET `ticketing_current_status` = '5'
+WHERE `ticketing_id` = '887'
+
+---------------------------------------------------------------------
+
+10-03-2020 12:27:46 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Status changed by Maira Sami','ticket','887','8'), ('10','10','unread','active','Status changed by Maira Sami','ticket','887','9')
+
+---------------------------------------------------------------------
+
+10-03-2020 12:45:44 PM user_id(10) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '839'
+AND `user_id` = '10'
+
+---------------------------------------------------------------------
+
+10-03-2020 12:45:51 PM user_id(10) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '826'
+AND `user_id` = '10'
+
+---------------------------------------------------------------------
+
+10-03-2020 01:02:09 PM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '866'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+10-03-2020 02:39:26 PM user_id(10) : INSERT INTO `ticketing` (`generated_by_user_id`, `ticketing_titile`, `preferred_user_id`, `generated_by_department_id`, `assigned_to_department_id`, `school_id`, `campus_id`, `product_id`, `module_id`, `priority_id`, `user_school_id`, `ticketing_min_resolve_time`, `ticketing_max_resolve_time`, `ticketing_query`, `query_type_id`, `ticketing_current_status`, `query_generated_by_id`, `ticketing_status`) VALUES ('10', 'Error in assigning credentials ', '3', '3', '1', '132', '', '7', '', '4', '', '2020-03-11 12:00:00', '2020-03-11 13:00:00', '', '3', 1, '1', 'active')
+
+---------------------------------------------------------------------
+
+10-03-2020 02:39:26 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','New ticket created by Maira Sami','ticket',888,'8'), ('10','10','unread','active','New ticket created by Maira Sami','ticket',888,'9'), ('10','10','unread','active','New ticket created by Maira Sami','ticket',888,'2')
+
+---------------------------------------------------------------------
+
+10-03-2020 02:39:38 PM user_id(10) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '725'
+AND `user_id` = '10'
+
+---------------------------------------------------------------------
+
+10-03-2020 02:41:16 PM user_id(10) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`) VALUES ('comment', 'Kindly copy 2 column vouchers on single and duplicate vouchers as well', 'active', '10', '725')
+
+---------------------------------------------------------------------
+
+10-03-2020 02:41:16 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','New comment by Maira Sami','ticketing_comment','725','3'), ('10','10','unread','active','New comment by Maira Sami','ticketing_comment','725','8'), ('10','10','unread','active','New comment by Maira Sami','ticketing_comment','725','9'), ('10','10','unread','active','New comment by Maira Sami','ticketing_comment','725','2')
+
+---------------------------------------------------------------------
+
+10-03-2020 02:41:34 PM user_id(10) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '725'
+AND `user_id` = '10'
+
+---------------------------------------------------------------------
+
+10-03-2020 02:41:41 PM user_id(10) : UPDATE `ticketing` SET `ticketing_current_status` = '2'
+WHERE `ticketing_id` = '725'
+
+---------------------------------------------------------------------
+
+10-03-2020 02:41:41 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Status changed by Maira Sami','ticket','725','3'), ('10','10','unread','active','Status changed by Maira Sami','ticket','725','8'), ('10','10','unread','active','Status changed by Maira Sami','ticket','725','9'), ('10','10','unread','active','Status changed by Maira Sami','ticket','725','2')
+
+---------------------------------------------------------------------
+
+10-03-2020 02:44:25 PM user_id(2) : Logged in.
+
+---------------------------------------------------------------------
+
+10-03-2020 02:44:37 PM user_id(2) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '888'
+AND `user_id` = '2'
+
+---------------------------------------------------------------------
+
+10-03-2020 02:44:40 PM user_id(2) : UPDATE `ticketing` SET `assigned_to_user_id` = '3', `assigned_to_user_at` = '2020-03-10 14:44:40', `ticketing_current_status` = 2
+WHERE `ticketing_id` = '888'
+
+---------------------------------------------------------------------
+
+10-03-2020 02:44:40 PM user_id(2) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('2','2','unread','active','Ticket assigned to you','ticket','888','3')
+
+---------------------------------------------------------------------
+
+10-03-2020 02:57:01 PM user_id(9) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '867'
+AND `user_id` = '9'
+
+---------------------------------------------------------------------
+
+10-03-2020 03:00:47 PM user_id(9) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`) VALUES ('comment', 'Yes done', 'active', '9', '867')
+
+---------------------------------------------------------------------
+
+10-03-2020 03:00:47 PM user_id(9) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('9','9','unread','active','New comment by Saba saba','ticketing_comment','867','3'), ('9','9','unread','active','New comment by Saba saba','ticketing_comment','867','8'), ('9','9','unread','active','New comment by Saba saba','ticketing_comment','867','2')
+
+---------------------------------------------------------------------
+
+10-03-2020 03:00:48 PM user_id(9) : UPDATE `ticketing` SET `ticketing_current_status` = '5'
+WHERE `ticketing_id` = '867'
+
+---------------------------------------------------------------------
+
+10-03-2020 03:00:48 PM user_id(9) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('9','9','unread','active','Status changed by Saba saba','ticket','867','3'), ('9','9','unread','active','Status changed by Saba saba','ticket','867','8'), ('9','9','unread','active','Status changed by Saba saba','ticket','867','2')
+
+---------------------------------------------------------------------
+
+10-03-2020 03:00:59 PM user_id(9) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '821'
+AND `user_id` = '9'
+
+---------------------------------------------------------------------
+
+10-03-2020 03:02:02 PM user_id(9) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`) VALUES ('comment', 'Yes it is working perfectly&nbsp;', 'active', '9', '821')
+
+---------------------------------------------------------------------
+
+10-03-2020 03:02:02 PM user_id(9) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('9','9','unread','active','New comment by Saba saba','ticketing_comment','821','3'), ('9','9','unread','active','New comment by Saba saba','ticketing_comment','821','8'), ('9','9','unread','active','New comment by Saba saba','ticketing_comment','821','2')
+
+---------------------------------------------------------------------
+
+10-03-2020 03:04:22 PM user_id(9) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`) VALUES ('comment', 'Just loader required on it', 'active', '9', '821')
+
+---------------------------------------------------------------------
+
+10-03-2020 03:04:22 PM user_id(9) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('9','9','unread','active','New comment by Saba saba','ticketing_comment','821','3'), ('9','9','unread','active','New comment by Saba saba','ticketing_comment','821','8'), ('9','9','unread','active','New comment by Saba saba','ticketing_comment','821','2')
+
+---------------------------------------------------------------------
+
+10-03-2020 03:05:48 PM user_id(9) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '743'
+AND `user_id` = '9'
+
+---------------------------------------------------------------------
+
+10-03-2020 03:05:53 PM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '821'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+10-03-2020 03:06:03 PM user_id(3) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`) VALUES ('comment', 'OKay miss', 'active', '3', '821')
+
+---------------------------------------------------------------------
+
+10-03-2020 03:06:04 PM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','821','9'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','821','8'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','821','2')
+
+---------------------------------------------------------------------
+
+10-03-2020 03:06:18 PM user_id(9) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`) VALUES ('comment', 'Yes checked its done', 'active', '9', '743')
+
+---------------------------------------------------------------------
+
+10-03-2020 03:06:18 PM user_id(9) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('9','9','unread','active','New comment by Saba saba','ticketing_comment','743','3'), ('9','9','unread','active','New comment by Saba saba','ticketing_comment','743','8'), ('9','9','unread','active','New comment by Saba saba','ticketing_comment','743','2')
+
+---------------------------------------------------------------------
+
+10-03-2020 03:06:21 PM user_id(9) : UPDATE `ticketing` SET `ticketing_current_status` = '4'
+WHERE `ticketing_id` = '743'
+
+---------------------------------------------------------------------
+
+10-03-2020 03:06:21 PM user_id(9) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('9','9','unread','active','Status changed by Saba saba','ticket','743','3'), ('9','9','unread','active','Status changed by Saba saba','ticket','743','8'), ('9','9','unread','active','Status changed by Saba saba','ticket','743','2')
+
+---------------------------------------------------------------------
+
+10-03-2020 03:06:22 PM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '743'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+10-03-2020 03:06:28 PM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '743'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+10-03-2020 03:07:01 PM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '865'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+10-03-2020 03:07:17 PM user_id(3) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`) VALUES ('comment', 'need to discuss it with you', 'active', '3', '865')
+
+---------------------------------------------------------------------
+
+10-03-2020 03:07:17 PM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','865','9'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','865','2'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','865','8')
+
+---------------------------------------------------------------------
+
+10-03-2020 03:07:41 PM user_id(9) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '578'
+AND `user_id` = '9'
+
+---------------------------------------------------------------------
+
+10-03-2020 03:11:49 PM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '888'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+10-03-2020 03:12:05 PM user_id(10) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '871'
+AND `user_id` = '10'
+
+---------------------------------------------------------------------
+
+10-03-2020 03:12:09 PM user_id(10) : UPDATE `ticketing` SET `ticketing_current_status` = '2'
+WHERE `ticketing_id` = '871'
+
+---------------------------------------------------------------------
+
+10-03-2020 03:12:09 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Status changed by Maira Sami','ticket','871','3'), ('10','10','unread','active','Status changed by Maira Sami','ticket','871','8'), ('10','10','unread','active','Status changed by Maira Sami','ticket','871','9'), ('10','10','unread','active','Status changed by Maira Sami','ticket','871','2')
+
+---------------------------------------------------------------------
+
+10-03-2020 03:12:32 PM user_id(10) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`) VALUES ('comment', 'He said start working on it&nbsp;', 'active', '10', '871')
+
+---------------------------------------------------------------------
+
+10-03-2020 03:12:32 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','New comment by Maira Sami','ticketing_comment','871','3'), ('10','10','unread','active','New comment by Maira Sami','ticketing_comment','871','8'), ('10','10','unread','active','New comment by Maira Sami','ticketing_comment','871','9'), ('10','10','unread','active','New comment by Maira Sami','ticketing_comment','871','2')
+
+---------------------------------------------------------------------
+
+10-03-2020 03:14:02 PM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '871'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+10-03-2020 03:14:10 PM user_id(3) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`) VALUES ('comment', 'Okay', 'active', '3', '871')
+
+---------------------------------------------------------------------
+
+10-03-2020 03:14:10 PM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','871','10'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','871','8'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','871','9'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','871','2')
+
+---------------------------------------------------------------------
+
+10-03-2020 03:20:14 PM user_id(10) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '839'
+AND `user_id` = '10'
+
+---------------------------------------------------------------------
+
+10-03-2020 03:21:48 PM user_id(10) : INSERT INTO `ticketing_media` (`filename`, `ticketing_media_status`, `ticketing_id`, `user_id`, `file_short_url`) VALUES ('Jhanzaib.png', 'active', '839', '10', '080302c0d1')
+
+---------------------------------------------------------------------
+
+10-03-2020 03:21:49 PM user_id(10) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`, `ticketing_media_id`) VALUES ('comment', 'Why this SMS count showing ? Yahn to 2000 sms ki limit bhi nhi lagi', 'active', '10', '839', 751)
+
+---------------------------------------------------------------------
+
+10-03-2020 03:21:49 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','New comment by Maira Sami','ticketing_comment','839','3'), ('10','10','unread','active','New comment by Maira Sami','ticketing_comment','839','8'), ('10','10','unread','active','New comment by Maira Sami','ticketing_comment','839','9'), ('10','10','unread','active','New comment by Maira Sami','ticketing_comment','839','2')
+
+---------------------------------------------------------------------
+
+10-03-2020 03:41:20 PM user_id(10) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '843'
+AND `user_id` = '10'
+
+---------------------------------------------------------------------
+
+10-03-2020 03:41:23 PM user_id(10) : UPDATE `ticketing` SET `ticketing_current_status` = '5'
+WHERE `ticketing_id` = '843'
+
+---------------------------------------------------------------------
+
+10-03-2020 03:41:23 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Status changed by Maira Sami','ticket','843','3'), ('10','10','unread','active','Status changed by Maira Sami','ticket','843','8'), ('10','10','unread','active','Status changed by Maira Sami','ticket','843','9'), ('10','10','unread','active','Status changed by Maira Sami','ticket','843','2')
+
+---------------------------------------------------------------------
+
+10-03-2020 03:42:07 PM user_id(10) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '843'
+AND `user_id` = '10'
+
+---------------------------------------------------------------------
+
+10-03-2020 03:50:41 PM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '871'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+10-03-2020 03:51:21 PM user_id(3) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`) VALUES ('comment', 'Updated on every port except 28 smpublic', 'active', '3', '871')
+
+---------------------------------------------------------------------
+
+10-03-2020 03:51:21 PM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','871','10'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','871','8'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','871','9'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','871','2')
+
+---------------------------------------------------------------------
+
+10-03-2020 03:51:27 PM user_id(3) : UPDATE `ticketing` SET `ticketing_current_status` = '3'
+WHERE `ticketing_id` = '871'
+
+---------------------------------------------------------------------
+
+10-03-2020 03:51:27 PM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','871','10'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','871','8'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','871','9'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','871','2')
+
+---------------------------------------------------------------------
+
+10-03-2020 03:53:42 PM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '888'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+10-03-2020 03:54:22 PM user_id(10) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '888'
+AND `user_id` = '10'
+
+---------------------------------------------------------------------
+
+10-03-2020 03:54:33 PM user_id(10) : INSERT INTO `ticketing_media` (`filename`, `ticketing_media_status`, `ticketing_id`, `user_id`, `file_short_url`) VALUES ('adil1.png', 'active', '888', '10', 'd5fa16c256')
+
+---------------------------------------------------------------------
+
+10-03-2020 03:54:33 PM user_id(10) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`, `ticketing_media_id`) VALUES ('comment', '.', 'active', '10', '888', 752)
+
+---------------------------------------------------------------------
+
+10-03-2020 03:54:33 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','New comment by Maira Sami','ticketing_comment','888','3'), ('10','10','unread','active','New comment by Maira Sami','ticketing_comment','888','8'), ('10','10','unread','active','New comment by Maira Sami','ticketing_comment','888','9'), ('10','10','unread','active','New comment by Maira Sami','ticketing_comment','888','2')
+
+---------------------------------------------------------------------
+
+10-03-2020 03:54:38 PM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '888'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+10-03-2020 04:04:02 PM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '888'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+10-03-2020 04:05:33 PM user_id(3) : INSERT INTO `ticketing_media` (`filename`, `ticketing_media_status`, `ticketing_id`, `user_id`, `file_short_url`) VALUES ('Screenshot_from_2020-03-10_16-05-37.png', 'active', '888', '3', '64b0b7174b')
+
+---------------------------------------------------------------------
+
+10-03-2020 04:05:33 PM user_id(3) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`, `ticketing_media_id`) VALUES ('comment', 'Resolved kindly check updated on studnum 818', 'active', '3', '888', 753)
+
+---------------------------------------------------------------------
+
+10-03-2020 04:05:33 PM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','888','10'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','888','8'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','888','9'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','888','2')
+
+---------------------------------------------------------------------
+
+10-03-2020 04:05:38 PM user_id(3) : UPDATE `ticketing` SET `ticketing_current_status` = '3'
+WHERE `ticketing_id` = '888'
+
+---------------------------------------------------------------------
+
+10-03-2020 04:05:38 PM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','888','10'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','888','8'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','888','9'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','888','2')
+
+---------------------------------------------------------------------
+
+10-03-2020 04:05:58 PM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '866'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+10-03-2020 04:12:29 PM user_id(10) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '888'
+AND `user_id` = '10'
+
+---------------------------------------------------------------------
+
+10-03-2020 04:12:34 PM user_id(10) : UPDATE `ticketing` SET `ticketing_current_status` = '4'
+WHERE `ticketing_id` = '888'
+
+---------------------------------------------------------------------
+
+10-03-2020 04:12:34 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Status changed by Maira Sami','ticket','888','3'), ('10','10','unread','active','Status changed by Maira Sami','ticket','888','8'), ('10','10','unread','active','Status changed by Maira Sami','ticket','888','9'), ('10','10','unread','active','Status changed by Maira Sami','ticket','888','2')
+
+---------------------------------------------------------------------
+
+10-03-2020 04:14:32 PM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '613'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+10-03-2020 04:14:51 PM user_id(3) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`) VALUES ('comment', 'updated kent stationary voucher', 'active', '3', '613')
+
+---------------------------------------------------------------------
+
+10-03-2020 04:14:51 PM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','613','9'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','613','8'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','613','2')
+
+---------------------------------------------------------------------
+
+10-03-2020 04:15:17 PM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '723'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+10-03-2020 04:24:26 PM user_id(10) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '871'
+AND `user_id` = '10'
+
+---------------------------------------------------------------------
+
+10-03-2020 04:24:30 PM user_id(10) : UPDATE `ticketing` SET `ticketing_current_status` = '4'
+WHERE `ticketing_id` = '871'
+
+---------------------------------------------------------------------
+
+10-03-2020 04:24:30 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Status changed by Maira Sami','ticket','871','3'), ('10','10','unread','active','Status changed by Maira Sami','ticket','871','8'), ('10','10','unread','active','Status changed by Maira Sami','ticket','871','9'), ('10','10','unread','active','Status changed by Maira Sami','ticket','871','2')
+
+---------------------------------------------------------------------
+
+10-03-2020 04:24:43 PM user_id(10) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`) VALUES ('comment', 'okay&nbsp;', 'active', '10', '871')
+
+---------------------------------------------------------------------
+
+10-03-2020 04:24:43 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','New comment by Maira Sami','ticketing_comment','871','3'), ('10','10','unread','active','New comment by Maira Sami','ticketing_comment','871','8'), ('10','10','unread','active','New comment by Maira Sami','ticketing_comment','871','9'), ('10','10','unread','active','New comment by Maira Sami','ticketing_comment','871','2')
+
+---------------------------------------------------------------------
+
+10-03-2020 04:25:00 PM user_id(10) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '837'
+AND `user_id` = '10'
+
+---------------------------------------------------------------------
+
+10-03-2020 04:25:14 PM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '871'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+10-03-2020 04:25:21 PM user_id(10) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '839'
+AND `user_id` = '10'
+
+---------------------------------------------------------------------
+
+10-03-2020 04:25:31 PM user_id(10) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '839'
+AND `user_id` = '10'
+
+---------------------------------------------------------------------
+
+10-03-2020 04:32:06 PM user_id(10) : INSERT INTO `ticketing` (`generated_by_user_id`, `ticketing_titile`, `preferred_user_id`, `generated_by_department_id`, `assigned_to_department_id`, `school_id`, `campus_id`, `product_id`, `module_id`, `priority_id`, `user_school_id`, `ticketing_min_resolve_time`, `ticketing_max_resolve_time`, `ticketing_query`, `query_type_id`, `ticketing_current_status`, `query_generated_by_id`, `ticketing_status`, `assigned_to_user_id`, `assigned_to_user_at`, `assigned_by_user_id`) VALUES ('10', 'SMS sent through SIMSIN', '10', '3', '3', '18', '', '7', '', '2', '', '2020-03-10 00:00:00', '2020-03-10 00:00:00', '', '4', 2, '1', 'active', '10', '2020-03-10 16:32:06', '10')
+
+---------------------------------------------------------------------
+
+10-03-2020 04:32:06 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','New ticket created by Maira Sami','ticket',889,'8'), ('10','10','unread','active','New ticket created by Maira Sami','ticket',889,'9')
+
+---------------------------------------------------------------------
+
+10-03-2020 04:32:07 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Ticket assigned to you','ticket',889,'10')
+
+---------------------------------------------------------------------
+
+10-03-2020 04:32:12 PM user_id(10) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '889'
+AND `user_id` = '10'
+
+---------------------------------------------------------------------
+
+10-03-2020 04:32:18 PM user_id(10) : UPDATE `ticketing` SET `ticketing_current_status` = '5'
+WHERE `ticketing_id` = '889'
+
+---------------------------------------------------------------------
+
+10-03-2020 04:32:18 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Status changed by Maira Sami','ticket','889','8'), ('10','10','unread','active','Status changed by Maira Sami','ticket','889','9')
+
+---------------------------------------------------------------------
+
+10-03-2020 04:36:16 PM user_id(10) : INSERT INTO `ticketing` (`generated_by_user_id`, `ticketing_titile`, `preferred_user_id`, `generated_by_department_id`, `assigned_to_department_id`, `school_id`, `campus_id`, `product_id`, `module_id`, `priority_id`, `user_school_id`, `ticketing_min_resolve_time`, `ticketing_max_resolve_time`, `ticketing_query`, `query_type_id`, `ticketing_current_status`, `query_generated_by_id`, `ticketing_status`, `assigned_to_user_id`, `assigned_to_user_at`, `assigned_by_user_id`) VALUES ('10', 'CID- 10046 How to rollback and delete single fee', '10', '3', '3', '176', '', '8', '', '2', '', '2020-03-10 00:00:00', '2020-03-10 00:00:00', '', '4', 2, '1', 'active', '10', '2020-03-10 16:36:16', '10')
+
+---------------------------------------------------------------------
+
+10-03-2020 04:36:16 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','New ticket created by Maira Sami','ticket',890,'8'), ('10','10','unread','active','New ticket created by Maira Sami','ticket',890,'9')
+
+---------------------------------------------------------------------
+
+10-03-2020 04:36:16 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Ticket assigned to you','ticket',890,'10')
+
+---------------------------------------------------------------------
+
+10-03-2020 04:36:21 PM user_id(10) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '890'
+AND `user_id` = '10'
+
+---------------------------------------------------------------------
+
+10-03-2020 04:36:24 PM user_id(10) : UPDATE `ticketing` SET `ticketing_current_status` = '5'
+WHERE `ticketing_id` = '890'
+
+---------------------------------------------------------------------
+
+10-03-2020 04:36:24 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Status changed by Maira Sami','ticket','890','8'), ('10','10','unread','active','Status changed by Maira Sami','ticket','890','9')
+
+---------------------------------------------------------------------
+
+10-03-2020 04:37:46 PM user_id(10) : INSERT INTO `ticketing` (`generated_by_user_id`, `ticketing_titile`, `preferred_user_id`, `generated_by_department_id`, `assigned_to_department_id`, `school_id`, `campus_id`, `product_id`, `module_id`, `priority_id`, `user_school_id`, `ticketing_min_resolve_time`, `ticketing_max_resolve_time`, `ticketing_query`, `query_type_id`, `ticketing_current_status`, `query_generated_by_id`, `ticketing_status`, `assigned_to_user_id`, `assigned_to_user_at`, `assigned_by_user_id`) VALUES ('10', 'Discuss Pre-reg amount CID- 9173', '10', '3', '3', '20', '', '8', '', '2', '', '2020-03-10 00:00:00', '2020-03-10 00:00:00', '', '4', 2, '1', 'active', '10', '2020-03-10 16:37:46', '10')
+
+---------------------------------------------------------------------
+
+10-03-2020 04:37:46 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','New ticket created by Maira Sami','ticket',891,'8'), ('10','10','unread','active','New ticket created by Maira Sami','ticket',891,'9')
+
+---------------------------------------------------------------------
+
+10-03-2020 04:37:47 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Ticket assigned to you','ticket',891,'10')
+
+---------------------------------------------------------------------
+
+10-03-2020 04:37:50 PM user_id(10) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '891'
+AND `user_id` = '10'
+
+---------------------------------------------------------------------
+
+10-03-2020 04:37:55 PM user_id(10) : UPDATE `ticketing` SET `ticketing_current_status` = '5'
+WHERE `ticketing_id` = '891'
+
+---------------------------------------------------------------------
+
+10-03-2020 04:37:55 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Status changed by Maira Sami','ticket','891','8'), ('10','10','unread','active','Status changed by Maira Sami','ticket','891','9')
+
+---------------------------------------------------------------------
+
+10-03-2020 04:44:31 PM user_id(10) : INSERT INTO `ticketing` (`generated_by_user_id`, `ticketing_titile`, `preferred_user_id`, `generated_by_department_id`, `assigned_to_department_id`, `school_id`, `campus_id`, `product_id`, `module_id`, `priority_id`, `user_school_id`, `ticketing_min_resolve_time`, `ticketing_max_resolve_time`, `ticketing_query`, `query_type_id`, `ticketing_current_status`, `query_generated_by_id`, `ticketing_status`, `assigned_to_user_id`, `assigned_to_user_at`, `assigned_by_user_id`) VALUES ('10', 'Add classes in meta', '10', '3', '3', '105', '', '7', '', '2', '', '2020-03-10 00:00:00', '2020-03-10 00:00:00', '', '4', 2, '3', 'active', '10', '2020-03-10 16:44:31', '10')
+
+---------------------------------------------------------------------
+
+10-03-2020 04:44:31 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','New ticket created by Maira Sami','ticket',892,'8'), ('10','10','unread','active','New ticket created by Maira Sami','ticket',892,'9')
+
+---------------------------------------------------------------------
+
+10-03-2020 04:44:32 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Ticket assigned to you','ticket',892,'10')
+
+---------------------------------------------------------------------
+
+10-03-2020 04:44:35 PM user_id(10) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '892'
+AND `user_id` = '10'
+
+---------------------------------------------------------------------
+
+10-03-2020 04:44:39 PM user_id(10) : UPDATE `ticketing` SET `ticketing_current_status` = '5'
+WHERE `ticketing_id` = '892'
+
+---------------------------------------------------------------------
+
+10-03-2020 04:44:39 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Status changed by Maira Sami','ticket','892','8'), ('10','10','unread','active','Status changed by Maira Sami','ticket','892','9')
+
+---------------------------------------------------------------------
+
+10-03-2020 04:45:46 PM user_id(10) : INSERT INTO `ticketing` (`generated_by_user_id`, `ticketing_titile`, `preferred_user_id`, `generated_by_department_id`, `assigned_to_department_id`, `school_id`, `campus_id`, `product_id`, `module_id`, `priority_id`, `user_school_id`, `ticketing_min_resolve_time`, `ticketing_max_resolve_time`, `ticketing_query`, `query_type_id`, `ticketing_current_status`, `query_generated_by_id`, `ticketing_status`, `assigned_to_user_id`, `assigned_to_user_at`, `assigned_by_user_id`) VALUES ('10', 'SMS sent through SIMSIN', '10', '3', '3', '82', '', '6', '', '2', '', '2020-03-10 00:00:00', '2020-03-10 00:00:00', '', '4', 2, '3', 'active', '10', '2020-03-10 16:45:46', '10')
+
+---------------------------------------------------------------------
+
+10-03-2020 04:45:46 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','New ticket created by Maira Sami','ticket',893,'8'), ('10','10','unread','active','New ticket created by Maira Sami','ticket',893,'9')
+
+---------------------------------------------------------------------
+
+10-03-2020 04:45:47 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Ticket assigned to you','ticket',893,'10')
+
+---------------------------------------------------------------------
+
+10-03-2020 04:45:50 PM user_id(10) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '893'
+AND `user_id` = '10'
+
+---------------------------------------------------------------------
+
+10-03-2020 04:45:54 PM user_id(10) : UPDATE `ticketing` SET `ticketing_current_status` = '5'
+WHERE `ticketing_id` = '893'
+
+---------------------------------------------------------------------
+
+10-03-2020 04:45:54 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Status changed by Maira Sami','ticket','893','8'), ('10','10','unread','active','Status changed by Maira Sami','ticket','893','9')
+
+---------------------------------------------------------------------
+
+10-03-2020 04:47:54 PM user_id(10) : INSERT INTO `ticketing` (`generated_by_user_id`, `ticketing_titile`, `preferred_user_id`, `generated_by_department_id`, `assigned_to_department_id`, `school_id`, `campus_id`, `product_id`, `module_id`, `priority_id`, `user_school_id`, `ticketing_min_resolve_time`, `ticketing_max_resolve_time`, `ticketing_query`, `query_type_id`, `ticketing_current_status`, `query_generated_by_id`, `ticketing_status`, `assigned_to_user_id`, `assigned_to_user_at`, `assigned_by_user_id`) VALUES ('10', 'How to extract student data ', '10', '3', '3', '45', '', '8', '17', '2', '', '2020-03-10 00:00:00', '2020-03-10 00:00:00', '', '4', 2, '1', 'active', '10', '2020-03-10 16:47:54', '10')
+
+---------------------------------------------------------------------
+
+10-03-2020 04:47:54 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','New ticket created by Maira Sami','ticket',894,'8'), ('10','10','unread','active','New ticket created by Maira Sami','ticket',894,'9')
+
+---------------------------------------------------------------------
+
+10-03-2020 04:47:55 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Ticket assigned to you','ticket',894,'10')
+
+---------------------------------------------------------------------
+
+10-03-2020 04:47:59 PM user_id(10) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '894'
+AND `user_id` = '10'
+
+---------------------------------------------------------------------
+
+10-03-2020 04:48:04 PM user_id(10) : UPDATE `ticketing` SET `ticketing_current_status` = '5'
+WHERE `ticketing_id` = '894'
+
+---------------------------------------------------------------------
+
+10-03-2020 04:48:04 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Status changed by Maira Sami','ticket','894','8'), ('10','10','unread','active','Status changed by Maira Sami','ticket','894','9')
+
+---------------------------------------------------------------------
+
+10-03-2020 05:10:13 PM user_id(10) : INSERT INTO `ticketing` (`generated_by_user_id`, `ticketing_titile`, `preferred_user_id`, `generated_by_department_id`, `assigned_to_department_id`, `school_id`, `campus_id`, `product_id`, `module_id`, `priority_id`, `user_school_id`, `ticketing_min_resolve_time`, `ticketing_max_resolve_time`, `ticketing_query`, `query_type_id`, `ticketing_current_status`, `query_generated_by_id`, `ticketing_status`, `assigned_to_user_id`, `assigned_to_user_at`, `assigned_by_user_id`) VALUES ('10', 'Wants to know username and password', '10', '3', '3', '78', '', '8', '', '2', '', '2020-03-10 00:00:00', '2020-03-10 00:00:00', '', '4', 2, '1', 'active', '10', '2020-03-10 17:10:13', '10')
+
+---------------------------------------------------------------------
+
+10-03-2020 05:10:13 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','New ticket created by Maira Sami','ticket',895,'8'), ('10','10','unread','active','New ticket created by Maira Sami','ticket',895,'9')
+
+---------------------------------------------------------------------
+
+10-03-2020 05:10:14 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Ticket assigned to you','ticket',895,'10')
+
+---------------------------------------------------------------------
+
+10-03-2020 05:10:21 PM user_id(10) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '895'
+AND `user_id` = '10'
+
+---------------------------------------------------------------------
+
+10-03-2020 05:10:30 PM user_id(10) : UPDATE `ticketing` SET `ticketing_current_status` = '5'
+WHERE `ticketing_id` = '895'
+
+---------------------------------------------------------------------
+
+10-03-2020 05:10:30 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Status changed by Maira Sami','ticket','895','8'), ('10','10','unread','active','Status changed by Maira Sami','ticket','895','9')
+
+---------------------------------------------------------------------
+
+10-03-2020 05:11:11 PM user_id(10) : Logged out.

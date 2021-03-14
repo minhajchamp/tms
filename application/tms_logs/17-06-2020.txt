@@ -1,0 +1,86 @@
+Log file created at 17-06-2020 10:47:59 AM
+
+---------------------------------------------------------------------
+
+17-06-2020 10:47:59 AM user_id(3) : Logged in.
+
+---------------------------------------------------------------------
+
+17-06-2020 10:48:12 AM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '510'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+17-06-2020 11:18:39 AM user_id(10) : Logged in.
+
+---------------------------------------------------------------------
+
+17-06-2020 11:25:53 AM user_id(10) : INSERT INTO `ticketing` (`generated_by_user_id`, `ticketing_titile`, `preferred_user_id`, `generated_by_department_id`, `assigned_to_department_id`, `school_id`, `campus_id`, `product_id`, `module_id`, `priority_id`, `user_school_id`, `ticketing_min_resolve_time`, `ticketing_max_resolve_time`, `ticketing_query`, `query_type_id`, `ticketing_current_status`, `query_generated_by_id`, `ticketing_status`) VALUES ('10', 'Add cell2 field And CSV in class strength contact report', '3', '3', '1', '83', '', '7', '', '4', '', '2020-06-16 00:00:00', '2020-06-16 00:00:00', '', '2', 1, '1', 'active')
+
+---------------------------------------------------------------------
+
+17-06-2020 11:25:53 AM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','New ticket created by Maira Sami','ticket',979,'8'), ('10','10','unread','active','New ticket created by Maira Sami','ticket',979,'9'), ('10','10','unread','active','New ticket created by Maira Sami','ticket',979,'2'), ('10','10','unread','active','New ticket created by Maira Sami','ticket',979,'3')
+
+---------------------------------------------------------------------
+
+17-06-2020 11:25:58 AM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '979'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+17-06-2020 11:26:02 AM user_id(3) : UPDATE `ticketing` SET `ticketing_current_status` = '2'
+WHERE `ticketing_id` = '979'
+
+---------------------------------------------------------------------
+
+17-06-2020 11:26:02 AM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','979','10'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','979','8'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','979','9'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','979','2')
+
+---------------------------------------------------------------------
+
+17-06-2020 11:26:06 AM user_id(3) : UPDATE `ticketing` SET `assigned_to_user_id` = '3', `assigned_to_user_at` = '2020-06-17 11:26:06', `ticketing_current_status` = 2
+WHERE `ticketing_id` = '979'
+
+---------------------------------------------------------------------
+
+17-06-2020 11:26:09 AM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '979'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+17-06-2020 11:35:54 AM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '972'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+17-06-2020 12:14:10 PM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '979'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+17-06-2020 12:14:13 PM user_id(3) : UPDATE `ticketing` SET `ticketing_current_status` = '3'
+WHERE `ticketing_id` = '979'
+
+---------------------------------------------------------------------
+
+17-06-2020 12:14:13 PM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','979','10'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','979','8'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','979','9'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','979','2')
+
+---------------------------------------------------------------------
+
+17-06-2020 12:14:46 PM user_id(3) : INSERT INTO `ticketing_media` (`filename`, `ticketing_media_status`, `ticketing_id`, `user_id`, `file_short_url`) VALUES ('Screenshot_from_2020-06-17_12-15-01.png', 'active', '979', '3', 'c5621a19f1')
+
+---------------------------------------------------------------------
+
+17-06-2020 12:14:46 PM user_id(3) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`, `ticketing_media_id`) VALUES ('comment', 'done kindly check the CSV and pdf report', 'active', '3', '979', 785)
+
+---------------------------------------------------------------------
+
+17-06-2020 12:14:46 PM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','979','10'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','979','8'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','979','9'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','979','2')
+
+---------------------------------------------------------------------
+
+17-06-2020 06:03:00 PM user_id(10) : Logged in.

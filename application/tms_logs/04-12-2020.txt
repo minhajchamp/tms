@@ -1,0 +1,392 @@
+Log file created at 04-12-2020 09:36:01 AM
+
+---------------------------------------------------------------------
+
+04-12-2020 09:36:01 AM user_id(25) : Logged in.
+
+---------------------------------------------------------------------
+
+04-12-2020 09:46:09 AM user_id(26) : Logged in.
+
+---------------------------------------------------------------------
+
+04-12-2020 09:48:04 AM user_id(26) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2033'
+AND `user_id` = '26'
+
+---------------------------------------------------------------------
+
+04-12-2020 10:03:40 AM user_id(3) : Logged in.
+
+---------------------------------------------------------------------
+
+04-12-2020 10:17:00 AM user_id(26) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2021'
+AND `user_id` = '26'
+
+---------------------------------------------------------------------
+
+04-12-2020 10:25:29 AM user_id(26) : INSERT INTO `ticketing` (`generated_by_user_id`, `ticketing_titile`, `preferred_user_id`, `generated_by_department_id`, `assigned_to_department_id`, `school_id`, `campus_id`, `product_id`, `module_id`, `priority_id`, `user_school_id`, `ticketing_min_resolve_time`, `ticketing_max_resolve_time`, `ticketing_query`, `query_type_id`, `ticketing_current_status`, `query_generated_by_id`, `ticketing_status`) VALUES ('26', 'Add CSV Download Option In \"Deposit Report Date-wise\" ', '', '3', '1', '25', '', '7', '', '2', '', '2020-12-04 00:00:00', '2020-12-04 00:00:00', '<p>Dear Sir Zahid,</p><p>Kindly Add CSV Download option in (<strong>Deposit Report Date-wise</strong>) Report and Update. <strong>Sir please</strong><strong>&nbsp;resolve this issue urgently</strong>.</p>', '2', 1, '2', 'active')
+
+---------------------------------------------------------------------
+
+04-12-2020 10:25:29 AM user_id(26) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('26','26','unread','active','New ticket created by Shahzaib Khalid','ticket',2034,'8'), ('26','26','unread','active','New ticket created by Shahzaib Khalid','ticket',2034,'2'), ('26','26','unread','active','New ticket created by Shahzaib Khalid','ticket',2034,'3')
+
+---------------------------------------------------------------------
+
+04-12-2020 10:25:37 AM user_id(26) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2034'
+AND `user_id` = '26'
+
+---------------------------------------------------------------------
+
+04-12-2020 10:28:44 AM user_id(26) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2033'
+AND `user_id` = '26'
+
+---------------------------------------------------------------------
+
+04-12-2020 10:35:56 AM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2034'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+04-12-2020 10:36:04 AM user_id(3) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`) VALUES ('comment', 'Working', 'active', '3', '2034')
+
+---------------------------------------------------------------------
+
+04-12-2020 10:36:04 AM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','2034','26'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','2034','8'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','2034','2')
+
+---------------------------------------------------------------------
+
+04-12-2020 10:41:07 AM user_id(3) : INSERT INTO `ticketing_media` (`filename`, `ticketing_media_status`, `ticketing_id`, `user_id`, `file_short_url`) VALUES ('Screenshot_from_2020-12-04_10-40-51.png', 'active', '2034', '3', '4a117c5691')
+
+---------------------------------------------------------------------
+
+04-12-2020 10:41:07 AM user_id(3) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`, `ticketing_media_id`) VALUES ('comment', 'Resolved kindly check and update', 'active', '3', '2034', 1596)
+
+---------------------------------------------------------------------
+
+04-12-2020 10:41:07 AM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','2034','26'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','2034','8'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','2034','2')
+
+---------------------------------------------------------------------
+
+04-12-2020 10:41:09 AM user_id(26) : INSERT INTO `ticketing` (`generated_by_user_id`, `ticketing_titile`, `preferred_user_id`, `generated_by_department_id`, `assigned_to_department_id`, `school_id`, `campus_id`, `product_id`, `module_id`, `priority_id`, `user_school_id`, `ticketing_min_resolve_time`, `ticketing_max_resolve_time`, `ticketing_query`, `query_type_id`, `ticketing_current_status`, `query_generated_by_id`, `ticketing_status`) VALUES ('26', 'Add Campus wise dropdown', '', '3', '1', '121', '', '7', '', '2', '', '2020-12-04 00:00:00', '2020-12-04 00:00:00', '<p>Dear Sir Zahid,</p><p>Kindly add Campus-wise Dropdown in \"<strong>Withdraw Passout student Module</strong>\" and Update.&nbsp;<br></p>', '2', 1, '3', 'active')
+
+---------------------------------------------------------------------
+
+04-12-2020 10:41:09 AM user_id(26) : INSERT INTO `ticketing_media` (`filename`, `ticketing_media_status`, `ticketing_id`, `user_id`, `file_short_url`) VALUES ('Screenshot_(22)1.png', 'active', 2035, '26', '0f7332661e')
+
+---------------------------------------------------------------------
+
+04-12-2020 10:41:09 AM user_id(26) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('26','26','unread','active','New ticket created by Shahzaib Khalid','ticket',2035,'8'), ('26','26','unread','active','New ticket created by Shahzaib Khalid','ticket',2035,'2'), ('26','26','unread','active','New ticket created by Shahzaib Khalid','ticket',2035,'3')
+
+---------------------------------------------------------------------
+
+04-12-2020 10:41:11 AM user_id(3) : UPDATE `ticketing` SET `assigned_to_user_id` = '3', `assigned_to_user_at` = '2020-12-04 10:41:11', `ticketing_current_status` = 2
+WHERE `ticketing_id` = '2034'
+
+---------------------------------------------------------------------
+
+04-12-2020 10:41:15 AM user_id(3) : UPDATE `ticketing` SET `ticketing_current_status` = '3'
+WHERE `ticketing_id` = '2034'
+
+---------------------------------------------------------------------
+
+04-12-2020 10:41:15 AM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','2034','26'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','2034','8'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','2034','2')
+
+---------------------------------------------------------------------
+
+04-12-2020 10:41:22 AM user_id(26) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `notification_id` = '34909'
+
+---------------------------------------------------------------------
+
+04-12-2020 10:41:23 AM user_id(26) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2034'
+AND `user_id` = '26'
+
+---------------------------------------------------------------------
+
+04-12-2020 10:41:52 AM user_id(26) : UPDATE `ticketing` SET `ticketing_current_status` = '5'
+WHERE `ticketing_id` = '2034'
+
+---------------------------------------------------------------------
+
+04-12-2020 10:41:52 AM user_id(26) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('26','26','unread','active','Status changed by Shahzaib Khalid','ticket','2034','3'), ('26','26','unread','active','Status changed by Shahzaib Khalid','ticket','2034','8'), ('26','26','unread','active','Status changed by Shahzaib Khalid','ticket','2034','2')
+
+---------------------------------------------------------------------
+
+04-12-2020 10:42:10 AM user_id(26) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`) VALUES ('comment', 'Okay Sir thank you so much.', 'active', '26', '2034')
+
+---------------------------------------------------------------------
+
+04-12-2020 10:42:10 AM user_id(26) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('26','26','unread','active','New comment by Shahzaib Khalid','ticketing_comment','2034','3'), ('26','26','unread','active','New comment by Shahzaib Khalid','ticketing_comment','2034','8'), ('26','26','unread','active','New comment by Shahzaib Khalid','ticketing_comment','2034','2')
+
+---------------------------------------------------------------------
+
+04-12-2020 10:52:33 AM user_id(24) : Logged in.
+
+---------------------------------------------------------------------
+
+04-12-2020 11:09:45 AM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2035'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+04-12-2020 11:42:44 AM user_id(3) : INSERT INTO `ticketing_media` (`filename`, `ticketing_media_status`, `ticketing_id`, `user_id`, `file_short_url`) VALUES ('Screenshot_from_2020-12-04_11-42-34.png', 'active', '2035', '3', '51a2928f4b')
+
+---------------------------------------------------------------------
+
+04-12-2020 11:42:44 AM user_id(3) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`, `ticketing_media_id`) VALUES ('comment', '1', 'active', '3', '2035', 1598)
+
+---------------------------------------------------------------------
+
+04-12-2020 11:42:44 AM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','2035','26'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','2035','8'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','2035','2')
+
+---------------------------------------------------------------------
+
+04-12-2020 11:43:06 AM user_id(3) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`) VALUES ('comment', '2', 'active', '3', '2035')
+
+---------------------------------------------------------------------
+
+04-12-2020 11:43:06 AM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','2035','26'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','2035','8'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','2035','2')
+
+---------------------------------------------------------------------
+
+04-12-2020 11:43:07 AM user_id(3) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`) VALUES ('comment', '2', 'active', '3', '2035')
+
+---------------------------------------------------------------------
+
+04-12-2020 11:43:07 AM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','2035','26'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','2035','8'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','2035','2')
+
+---------------------------------------------------------------------
+
+04-12-2020 11:43:12 AM user_id(3) : UPDATE `ticketing` SET `assigned_to_user_id` = '3', `assigned_to_user_at` = '2020-12-04 11:43:12', `ticketing_current_status` = 2
+WHERE `ticketing_id` = '2035'
+
+---------------------------------------------------------------------
+
+04-12-2020 11:43:22 AM user_id(3) : INSERT INTO `ticketing_media` (`filename`, `ticketing_media_status`, `ticketing_id`, `user_id`, `file_short_url`) VALUES ('Screenshot_from_2020-12-04_11-42-561.png', 'active', '2035', '3', '9434d2c9d7')
+
+---------------------------------------------------------------------
+
+04-12-2020 11:43:22 AM user_id(3) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`, `ticketing_media_id`) VALUES ('comment', '2', 'active', '3', '2035', 1599)
+
+---------------------------------------------------------------------
+
+04-12-2020 11:43:22 AM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','2035','26'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','2035','8'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','2035','2')
+
+---------------------------------------------------------------------
+
+04-12-2020 11:43:34 AM user_id(3) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`) VALUES ('comment', 'Updated kindly check', 'active', '3', '2035')
+
+---------------------------------------------------------------------
+
+04-12-2020 11:43:34 AM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','2035','26'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','2035','8'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','2035','2')
+
+---------------------------------------------------------------------
+
+04-12-2020 11:43:39 AM user_id(3) : UPDATE `ticketing` SET `ticketing_current_status` = '3'
+WHERE `ticketing_id` = '2035'
+
+---------------------------------------------------------------------
+
+04-12-2020 11:43:39 AM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','2035','26'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','2035','8'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','2035','2')
+
+---------------------------------------------------------------------
+
+04-12-2020 12:10:40 PM user_id(25) : INSERT INTO `ticketing` (`generated_by_user_id`, `ticketing_titile`, `preferred_user_id`, `generated_by_department_id`, `assigned_to_department_id`, `school_id`, `campus_id`, `product_id`, `module_id`, `priority_id`, `user_school_id`, `ticketing_min_resolve_time`, `ticketing_max_resolve_time`, `ticketing_query`, `query_type_id`, `ticketing_current_status`, `query_generated_by_id`, `ticketing_status`) VALUES ('25', 'change bank detail', '', '3', '1', '90', '', '7', '', '2', '', '2020-12-04 00:00:00', '2020-12-04 00:00:00', '<p>Dear sir zahid,</p><p>please change bank name and&nbsp;bank account no&nbsp;</p><p>Bank name: Bank Al Habib&nbsp;</p><p>account no: 5013-0081-007555-06-9</p>', '2', 1, '3', 'active')
+
+---------------------------------------------------------------------
+
+04-12-2020 12:10:40 PM user_id(25) : INSERT INTO `ticketing_media` (`filename`, `ticketing_media_status`, `ticketing_id`, `user_id`, `file_short_url`) VALUES ('Screenshot_(35).png', 'active', 2036, '25', '6c37ea1000')
+
+---------------------------------------------------------------------
+
+04-12-2020 12:10:40 PM user_id(25) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('25','25','unread','active','New ticket created by Maida Maida','ticket',2036,'8'), ('25','25','unread','active','New ticket created by Maida Maida','ticket',2036,'2'), ('25','25','unread','active','New ticket created by Maida Maida','ticket',2036,'3')
+
+---------------------------------------------------------------------
+
+04-12-2020 12:11:23 PM user_id(25) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2032'
+AND `user_id` = '25'
+
+---------------------------------------------------------------------
+
+04-12-2020 12:11:24 PM user_id(25) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2036'
+AND `user_id` = '25'
+
+---------------------------------------------------------------------
+
+04-12-2020 12:19:10 PM user_id(26) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `notification_id` = '34942'
+
+---------------------------------------------------------------------
+
+04-12-2020 12:19:10 PM user_id(26) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2035'
+AND `user_id` = '26'
+
+---------------------------------------------------------------------
+
+04-12-2020 12:21:48 PM user_id(26) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2033'
+AND `user_id` = '26'
+
+---------------------------------------------------------------------
+
+04-12-2020 12:23:56 PM user_id(26) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2035'
+AND `user_id` = '26'
+
+---------------------------------------------------------------------
+
+04-12-2020 12:38:46 PM user_id(26) : UPDATE `ticketing` SET `ticketing_current_status` = '5'
+WHERE `ticketing_id` = '2035'
+
+---------------------------------------------------------------------
+
+04-12-2020 12:38:46 PM user_id(26) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('26','26','unread','active','Status changed by Shahzaib Khalid','ticket','2035','3'), ('26','26','unread','active','Status changed by Shahzaib Khalid','ticket','2035','8'), ('26','26','unread','active','Status changed by Shahzaib Khalid','ticket','2035','2')
+
+---------------------------------------------------------------------
+
+04-12-2020 12:38:57 PM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2035'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+04-12-2020 12:39:01 PM user_id(26) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2033'
+AND `user_id` = '26'
+
+---------------------------------------------------------------------
+
+04-12-2020 12:47:34 PM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2036'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+04-12-2020 03:01:53 PM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2036'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+04-12-2020 03:08:17 PM user_id(3) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`) VALUES ('comment', 'Explianed to miss maida she will do it when the client will update&nbsp; address', 'active', '3', '2036')
+
+---------------------------------------------------------------------
+
+04-12-2020 03:08:17 PM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','2036','25'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','2036','8'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','2036','2')
+
+---------------------------------------------------------------------
+
+04-12-2020 03:08:42 PM user_id(3) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`) VALUES ('comment', 'so I am cancelling this issue', 'active', '3', '2036')
+
+---------------------------------------------------------------------
+
+04-12-2020 03:08:42 PM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','2036','25'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','2036','8'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','2036','2')
+
+---------------------------------------------------------------------
+
+04-12-2020 03:20:40 PM user_id(25) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2036'
+AND `user_id` = '25'
+
+---------------------------------------------------------------------
+
+04-12-2020 03:24:37 PM user_id(26) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2019'
+AND `user_id` = '26'
+
+---------------------------------------------------------------------
+
+04-12-2020 03:32:21 PM user_id(26) : INSERT INTO `ticketing_media` (`filename`, `ticketing_media_status`, `ticketing_id`, `user_id`, `file_short_url`) VALUES ('WhatsApp_Image_2020-12-04_at_2_37_52_PM.jpeg', 'active', '2019', '26', '1ea1667af5')
+
+---------------------------------------------------------------------
+
+04-12-2020 03:32:21 PM user_id(26) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`, `ticketing_media_id`) VALUES ('comment', '<p>Dear Zahid Sir,</p><p>Kindly check \"<strong>Date-wise collection report</strong>\" showing those months which doesn\'t have any collection record and display with \"<strong>0</strong>\" Value which impacts on&nbsp;PDF Report (<strong>Kindly&nbsp;</strong><strong>Check&nbsp;</strong><b>Screenshot</b>). Please resolve this issue ASAP.<br></p>', 'active', '26', '2019', 1601)
+
+---------------------------------------------------------------------
+
+04-12-2020 03:32:21 PM user_id(26) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('26','26','unread','active','New comment by Shahzaib Khalid','ticketing_comment','2019','3'), ('26','26','unread','active','New comment by Shahzaib Khalid','ticketing_comment','2019','8'), ('26','26','unread','active','New comment by Shahzaib Khalid','ticketing_comment','2019','2')
+
+---------------------------------------------------------------------
+
+04-12-2020 03:32:36 PM user_id(26) : UPDATE `ticketing` SET `ticketing_current_status` = '2'
+WHERE `ticketing_id` = '2019'
+
+---------------------------------------------------------------------
+
+04-12-2020 03:32:36 PM user_id(26) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('26','26','unread','active','Status changed by Shahzaib Khalid','ticket','2019','3'), ('26','26','unread','active','Status changed by Shahzaib Khalid','ticket','2019','8'), ('26','26','unread','active','Status changed by Shahzaib Khalid','ticket','2019','2')
+
+---------------------------------------------------------------------
+
+04-12-2020 03:33:14 PM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2019'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+04-12-2020 03:45:11 PM user_id(26) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2033'
+AND `user_id` = '26'
+
+---------------------------------------------------------------------
+
+04-12-2020 03:51:41 PM user_id(26) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`) VALUES ('comment', '<p>Dear Zahid Sir,&nbsp;</p><p>Kindly Check These issues are&nbsp;not resolved.<h2 style=\"box-sizing: border-box; font-family: Montserrat, sans-serif; font-weight: bold; line-height: 1.1; color: rgb(115, 135, 156); margin-top: 10px; margin-bottom: 10px; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\">Analytics Reports</h2><p style=\"box-sizing: border-box; margin: 0px 0px 10px; color: rgb(115, 135, 156); font-family: Montserrat, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\"><span style=\"box-sizing: border-box; font-size: 18px;\">Month-wise Fee Generated Record</span></p><p style=\"box-sizing: border-box; margin: 0px 0px 10px; color: rgb(115, 135, 156); font-family: Montserrat, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-weight: bold; display: inline !important;\"><br style=\"box-sizing: border-box;\"></p><strong style=\"box-sizing: border-box; font-weight: bold; color: rgb(115, 135, 156); font-family: Montserrat, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\"><ul style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 10px;\"><li style=\"box-sizing: border-box;\"><strong style=\"box-sizing: border-box; font-weight: 700;\"><p style=\"box-sizing: border-box; margin: 0px 0px 10px; display: inline !important;\">Not Showing Any Record.</p></strong></li></ul></strong><p style=\"box-sizing: border-box; margin: 0px 0px 10px; color: rgb(115, 135, 156); font-family: Montserrat, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\"><br></p><span style=\"box-sizing: border-box; color: rgb(115, 135, 156); font-family: Montserrat, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 18px;\">Paid Fee Report</span><p style=\"box-sizing: border-box; margin: 0px 0px 10px; color: rgb(115, 135, 156); font-family: Montserrat, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important;\"><br style=\"box-sizing: border-box;\"></p><strong style=\"box-sizing: border-box; font-weight: 700; color: rgb(115, 135, 156); font-family: Montserrat, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\"><ul style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 10px;\"><li style=\"box-sizing: border-box;\"><strong style=\"box-sizing: border-box; font-weight: 700;\"><p style=\"box-sizing: border-box; margin: 0px 0px 10px; display: inline !important;\">Not Showing Any Record.</p></strong></li></ul></strong><span style=\"box-sizing: border-box; color: rgb(115, 135, 156); font-family: Montserrat, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 18px;\">Month-wise Generated Fee Count</span><p style=\"box-sizing: border-box; margin: 0px 0px 10px; color: rgb(115, 135, 156); font-family: Montserrat, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important;\"><br style=\"box-sizing: border-box;\"></p><strong style=\"box-sizing: border-box; font-weight: 700; color: rgb(115, 135, 156); font-family: Montserrat, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\"><ul style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 10px;\"><li style=\"box-sizing: border-box;\"><strong style=\"box-sizing: border-box; font-weight: 700;\"><p style=\"box-sizing: border-box; margin: 0px 0px 10px; display: inline !important;\">Not Showing Any Record.</p></strong></li></ul></strong></p>', 'active', '26', '2033')
+
+---------------------------------------------------------------------
+
+04-12-2020 03:51:41 PM user_id(26) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('26','26','unread','active','New comment by Shahzaib Khalid','ticketing_comment','2033','24'), ('26','26','unread','active','New comment by Shahzaib Khalid','ticketing_comment','2033','8'), ('26','26','unread','active','New comment by Shahzaib Khalid','ticketing_comment','2033','2'), ('26','26','unread','active','New comment by Shahzaib Khalid','ticketing_comment','2033','3')
+
+---------------------------------------------------------------------
+
+04-12-2020 03:51:51 PM user_id(24) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2033'
+AND `user_id` = '24'
+
+---------------------------------------------------------------------
+
+04-12-2020 03:52:14 PM user_id(26) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2033'
+AND `user_id` = '26'
+
+---------------------------------------------------------------------
+
+04-12-2020 03:58:33 PM user_id(26) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`) VALUES ('comment', '<p>Sir kindly check this issue is also not resolve.</p><p><h4 style=\"box-sizing: border-box; font-family: Montserrat, sans-serif; font-weight: 500; line-height: 1.1; color: rgb(115, 135, 156); margin-top: 10px; margin-bottom: 10px; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important;\">Selected Defaulters with Contacts</h4><p style=\"box-sizing: border-box; margin: 0px 0px 10px; color: rgb(115, 135, 156); font-family: Montserrat, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important;\"><br style=\"box-sizing: border-box;\"></p><strong style=\"box-sizing: border-box; font-weight: 700; color: rgb(115, 135, 156); font-family: Montserrat, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\"><ul style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 10px;\"><li style=\"box-sizing: border-box;\"><strong style=\"box-sizing: border-box; font-weight: 700;\"><p style=\"box-sizing: border-box; margin: 0px 0px 10px; display: inline !important;\">All Campuses Not Found Error.</p></strong></li></ul></strong><br></p>', 'active', '26', '2033')
+
+---------------------------------------------------------------------
+
+04-12-2020 03:58:33 PM user_id(26) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('26','26','unread','active','New comment by Shahzaib Khalid','ticketing_comment','2033','24'), ('26','26','unread','active','New comment by Shahzaib Khalid','ticketing_comment','2033','8'), ('26','26','unread','active','New comment by Shahzaib Khalid','ticketing_comment','2033','2'), ('26','26','unread','active','New comment by Shahzaib Khalid','ticketing_comment','2033','3')
+
+---------------------------------------------------------------------
+
+04-12-2020 03:58:35 PM user_id(26) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`) VALUES ('comment', '<p>Sir kindly check this issue is also not resolve.</p><p><h4 style=\"box-sizing: border-box; font-family: Montserrat, sans-serif; font-weight: 500; line-height: 1.1; color: rgb(115, 135, 156); margin-top: 10px; margin-bottom: 10px; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important;\">Selected Defaulters with Contacts</h4><p style=\"box-sizing: border-box; margin: 0px 0px 10px; color: rgb(115, 135, 156); font-family: Montserrat, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important;\"><br style=\"box-sizing: border-box;\"></p><strong style=\"box-sizing: border-box; font-weight: 700; color: rgb(115, 135, 156); font-family: Montserrat, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\"><ul style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 10px;\"><li style=\"box-sizing: border-box;\"><strong style=\"box-sizing: border-box; font-weight: 700;\"><p style=\"box-sizing: border-box; margin: 0px 0px 10px; display: inline !important;\">All Campuses Not Found Error.</p></strong></li></ul></strong><br></p>', 'active', '26', '2033')
+
+---------------------------------------------------------------------
+
+04-12-2020 03:58:35 PM user_id(26) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('26','26','unread','active','New comment by Shahzaib Khalid','ticketing_comment','2033','24'), ('26','26','unread','active','New comment by Shahzaib Khalid','ticketing_comment','2033','8'), ('26','26','unread','active','New comment by Shahzaib Khalid','ticketing_comment','2033','2'), ('26','26','unread','active','New comment by Shahzaib Khalid','ticketing_comment','2033','3')
+
+---------------------------------------------------------------------
+
+04-12-2020 04:35:14 PM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2019'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+04-12-2020 05:16:25 PM user_id(26) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '1969'
+AND `user_id` = '26'
+
+---------------------------------------------------------------------
+
+04-12-2020 05:17:25 PM user_id(26) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2033'
+AND `user_id` = '26'

@@ -1,0 +1,441 @@
+Log file created at 17-02-2021 09:39:54 AM
+
+---------------------------------------------------------------------
+
+17-02-2021 09:39:54 AM user_id(25) : Logged in.
+
+---------------------------------------------------------------------
+
+17-02-2021 09:44:04 AM user_id(3) : Logged in.
+
+---------------------------------------------------------------------
+
+17-02-2021 10:38:24 AM user_id(3) : Logged in.
+
+---------------------------------------------------------------------
+
+17-02-2021 11:42:45 AM user_id(25) : INSERT INTO `ticketing` (`generated_by_user_id`, `ticketing_titile`, `preferred_user_id`, `generated_by_department_id`, `assigned_to_department_id`, `school_id`, `campus_id`, `product_id`, `module_id`, `priority_id`, `user_school_id`, `ticketing_min_resolve_time`, `ticketing_max_resolve_time`, `ticketing_query`, `query_type_id`, `ticketing_current_status`, `query_generated_by_id`, `ticketing_status`) VALUES ('25', 'Set alignment of Dues report', '', '3', '1', '34', '', '7', '', '2', '', '2021-02-17 00:00:00', '2021-02-17 00:00:00', '<p>Dear Zahid,</p><p>Kindly set alignment of <strong>Dues report merged in page&nbsp;</strong>ASAP<br></p>', '3', 1, '1', 'active')
+
+---------------------------------------------------------------------
+
+17-02-2021 11:42:45 AM user_id(25) : INSERT INTO `ticketing_media` (`filename`, `ticketing_media_status`, `ticketing_id`, `user_id`, `file_short_url`) VALUES ('Screenshot_(96)1.png', 'active', 2173, '25', 'cb7e8f57a0')
+
+---------------------------------------------------------------------
+
+17-02-2021 11:42:45 AM user_id(25) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('25','25','unread','active','New ticket created by Maida Maida','ticket',2173,'8'), ('25','25','unread','active','New ticket created by Maida Maida','ticket',2173,'2'), ('25','25','unread','active','New ticket created by Maida Maida','ticket',2173,'3')
+
+---------------------------------------------------------------------
+
+17-02-2021 11:42:58 AM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2173'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+17-02-2021 11:46:55 AM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Alasr foundation','sims.arwaj.com.pk/erp/alasr_fa/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 11:47:44 AM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Allied ','sims.arwaj.com.pk/erp/allied_fa/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 11:54:39 AM user_id(3) : INSERT INTO `ticketing_media` (`filename`, `ticketing_media_status`, `ticketing_id`, `user_id`, `file_short_url`) VALUES ('Screenshot_from_2021-02-17_11-54-26.png', 'active', '2173', '3', '1f87536c16')
+
+---------------------------------------------------------------------
+
+17-02-2021 11:54:39 AM user_id(3) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`, `ticketing_media_id`) VALUES ('comment', 'Resolved', 'active', '3', '2173', 1807)
+
+---------------------------------------------------------------------
+
+17-02-2021 11:54:39 AM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','2173','25'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','2173','8'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','2173','2')
+
+---------------------------------------------------------------------
+
+17-02-2021 11:54:44 AM user_id(3) : UPDATE `ticketing` SET `assigned_to_user_id` = '3', `assigned_to_user_at` = '2021-02-17 11:54:44', `ticketing_current_status` = 2
+WHERE `ticketing_id` = '2173'
+
+---------------------------------------------------------------------
+
+17-02-2021 11:54:47 AM user_id(3) : UPDATE `ticketing` SET `ticketing_current_status` = '3'
+WHERE `ticketing_id` = '2173'
+
+---------------------------------------------------------------------
+
+17-02-2021 11:54:47 AM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','2173','25'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','2173','8'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','2173','2')
+
+---------------------------------------------------------------------
+
+17-02-2021 11:54:51 AM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2173'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+17-02-2021 12:00:39 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Alsuffah','sims.arwaj.com.pk/erp/alsuffah_bgul/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:02:08 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Alsuffah','sims.arwaj.com.pk/alsuffah_gul/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:03:15 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'alsuffah','sims.arwaj.com.pk/alsuffahnaz_fa/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:05:03 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'alsuffah north','sims.arwaj.com.pk/erp/alsuffahnk_fa/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:05:53 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Alsuffah North Nazimabad','sims.arwaj.com.pk/erp/alsuffahnn_fa/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:07:08 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Al-yaqeen','sims.arwaj.com.pk/erp/alyes1_fa/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:08:36 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Crescent Academy ','sims.arwaj.com.pk/erp/crescent_fa/ ','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:10:27 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Eclate Schooling system','sims.arwaj.com.pk/erp/eclat_fa/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:13:24 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Education ','sims.arwaj.com.pk/erp/education_synergy/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:14:05 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'educators','sims.arwaj.com.pk/erp/educators_maymar/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:15:23 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Educators ','sims.arwaj.com.pk/erp/educators_nn/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:16:27 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Educators','sims.arwaj.com.pk/erp/educators_north_nazimabad/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:17:39 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Educators paposh','sims.arwaj.com.pk/erp/educators_paposh/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:18:55 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Educators','sims.arwaj.com.pk/erp/educators_stown/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:22:43 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Educators gulshan','sims.arwaj.com.pk/erp/edugul_fa/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:25:30 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'elixir school','sims.arwaj.com.pk/erp/elixir_fa/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:26:30 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Excellence ','sims.arwaj.com.pk/erp/epss_fa/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:27:12 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Fox valley','sims.arwaj.com.pk/erp/fox_valley_fa/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:27:46 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Greenland','sims.arwaj.com.pk/erp/greenland_fa/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:28:43 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Growing tree','sims.arwaj.com.pk/erp/growingtree/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:29:32 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Growing Tree ','sims.arwaj.com.pk/erp/growingtree_fa/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:30:24 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'hampton ','sims.arwaj.com.pk/erp/hampton1_fa/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:31:12 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Hampton','sims.arwaj.com.pk/erp/hampton_fa/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:32:16 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Hira public','sims.arwaj.com.pk/erp/hira_financial/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:32:54 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Indus School','sims.arwaj.com.pk/erp/indus_fa/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:35:12 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Inspiration','sims.arwaj.com.pk/erp/inspiration_fa/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:39:28 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Kent city','sims.arwaj.com.pk/erp/kent_fa/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:40:29 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Kinder Garden','sims.arwaj.com.pk/erp/kinder_academy/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:41:25 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Morning Glory','sims.arwaj.com.pk/erp/m_glory/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:42:04 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Midasia','sims.arwaj.com.pk/erp/midasia_fa/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:42:58 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Midasia ','sims.arwaj.com.pk/erp/midasia_foundation_academy/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:43:34 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Nasa public','sims.arwaj.com.pk/erp/nasa_fa/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:44:27 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Nasa Public','sims.arwaj.com.pk/erp/nasaintl/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:45:13 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Pakaskari School','sims.arwaj.com.pk/erp/pakaskari_fa/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:45:59 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'parkhouse School','sims.arwaj.com.pk/erp/parkhpouse_fa/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:47:05 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Profectus ','sims.arwaj.com.pk/erp/profectus_international/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:48:30 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Shah jhangir ','sims.arwaj.com.pk/erp/sja_fa/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:49:09 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Smart School','sims.arwaj.com.pk/erp/smart_fa/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:49:48 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Smart  ','sims.arwaj.com.pk/smartpwd_fa/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:50:20 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'saint peter','sims.arwaj.com.pk/erp/sp_fa/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:50:51 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'SSCA','sims.arwaj.com.pk/erp/ssca_fa/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:51:19 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'SSCA','sims.arwaj.com.pk/erp/ssca_main/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:52:14 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'The Learning Space','sims.arwaj.com.pk/erp/tls_fa/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:53:07 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'The Learning space','sims.arwaj.com.pk/erp/tls_rafi_fa/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:53:51 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Usman public ','sims.arwaj.com.pk/erp/upss2/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:54:24 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'usman public','sims.arwaj.com.pk/erp/upss3/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:55:25 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Urban School','sims.arwaj.com.pk/erp/uss_fa/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:56:00 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'VTIW','sims.arwaj.com.pk/erp/vtcg_fa/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:56:30 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'VTCG','sims.arwaj.com.pk/erp/vtcg_fa/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:57:08 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'White house','sims.arwaj.com.pk/erp/whitehouse/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:57:35 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'zafar','sims.arwaj.com.pk/erp/zafar_fa/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 12:59:15 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Education','sims.arwaj.com.pk/erp/closed_education_synergy/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 01:00:06 PM user_id(25) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2173'
+AND `user_id` = '25'
+
+---------------------------------------------------------------------
+
+17-02-2021 01:11:44 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Educators Gulshan','sims.arwaj.com.pk/payroll/educators_gul/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 01:12:35 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Educators maymar','sims.arwaj.com.pk/payroll/edumaymar_payroll/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 01:13:52 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Educators sadi town','sims.arwaj.com.pk/payroll/edusadi_payroll/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 01:14:47 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'elixir school ','sims.arwaj.com.pk/payroll/elixir_payroll/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 01:18:51 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Fox valley','sims.arwaj.com.pk/payroll/fv2_payroll/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 01:19:23 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'fox valley','sims.arwaj.com.pk/payroll/fv_payroll/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 01:20:01 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Greenland','sims.arwaj.com.pk/payroll/greenland_payroll/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 01:20:46 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Kent city','sims.arwaj.com.pk/payroll/kentcity_gul/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 01:22:17 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Kent City ','sims.arwaj.com.pk/payroll/kentcity_payroll/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 01:22:57 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Kent city Zaman','sims.arwaj.com.pk/kentcity_zaman_payroll/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 01:23:38 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Kent city school','sims.arwaj.com.pk/payroll/kss_payroll/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 01:24:25 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'pak askari','sims.arwaj.com.pk/payroll/pakaskari_payroll/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 01:25:01 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'pak askari','sims.arwaj.com.pk/payroll/pakaskari_keman/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 01:26:09 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'pak askari','sims.arwaj.com.pk/payroll/pakaskari_payroll/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 01:26:39 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Smart School','sims.arwaj.com.pk/payroll/smart_payroll/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 01:27:16 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'SSCA','sims.arwaj.com.pk/payroll/ssca_payroll/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 01:28:58 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'The Metropolitan ','sims.arwaj.com.pk/payroll/tma_payroll/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 01:29:55 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Al yaqeen','sims.arwaj.com.pk/payroll/alyes2_payroll/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 01:30:45 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Crescent Academy  ','sims.arwaj.com.pk/payroll/crescent_payroll/ ','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 01:31:38 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'Dar -e-arqam','sims.arwaj.com.pk/payroll/darearqam_payroll/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 01:33:09 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'hampton','sims.arwaj.com.pk/payroll/hampton_payroll/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 01:34:04 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'SM public 5','sims.arwaj.com.pk/payroll/smp5_payroll/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 01:34:52 PM user_id(25) : INSERT INTO `school` (`school_activity_by`, `school_address`, `school_contact_no`, `school_email`, `school_logo`, `school_name`, `school_port_reference`, `school_status`) VALUES ('25','','','',NULL,'SM public ','sims.arwaj.com.pk/payroll/smpublic_payroll/','active')
+
+---------------------------------------------------------------------
+
+17-02-2021 04:36:16 PM user_id(26) : Logged in.
+
+---------------------------------------------------------------------
+
+17-02-2021 05:28:54 PM user_id(25) : INSERT INTO `ticketing` (`generated_by_user_id`, `ticketing_titile`, `preferred_user_id`, `generated_by_department_id`, `assigned_to_department_id`, `school_id`, `campus_id`, `product_id`, `module_id`, `priority_id`, `user_school_id`, `ticketing_min_resolve_time`, `ticketing_max_resolve_time`, `ticketing_query`, `query_type_id`, `ticketing_current_status`, `query_generated_by_id`, `ticketing_status`) VALUES ('25', 'Remove update column', '', '3', '1', '121', '', '7', '', '2', '', '2021-02-17 00:00:00', '2021-02-17 00:00:00', '<p>Dear Zahid,</p><p>Kindly remove&nbsp;campus update option , and also hide clone option on registration module . Sir adnan ticket&nbsp;<br></p>', '2', 1, '4', 'active')
+
+---------------------------------------------------------------------
+
+17-02-2021 05:28:54 PM user_id(25) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('25','25','unread','active','New ticket created by Maida Maida','ticket',2174,'8'), ('25','25','unread','active','New ticket created by Maida Maida','ticket',2174,'2'), ('25','25','unread','active','New ticket created by Maida Maida','ticket',2174,'3')
+
+---------------------------------------------------------------------
+
+17-02-2021 05:28:59 PM user_id(25) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2173'
+AND `user_id` = '25'
+
+---------------------------------------------------------------------
+
+17-02-2021 05:29:04 PM user_id(25) : UPDATE `ticketing` SET `ticketing_current_status` = '5'
+WHERE `ticketing_id` = '2173'
+
+---------------------------------------------------------------------
+
+17-02-2021 05:29:04 PM user_id(25) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('25','25','unread','active','Status changed by Maida Maida','ticket','2173','3'), ('25','25','unread','active','Status changed by Maida Maida','ticket','2173','8'), ('25','25','unread','active','Status changed by Maida Maida','ticket','2173','2')
+
+---------------------------------------------------------------------
+
+17-02-2021 05:29:56 PM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2174'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+17-02-2021 05:30:00 PM user_id(3) : UPDATE `ticketing` SET `assigned_to_user_id` = '3', `assigned_to_user_at` = '2021-02-17 17:30:00', `ticketing_current_status` = 2
+WHERE `ticketing_id` = '2174'
+
+---------------------------------------------------------------------
+
+17-02-2021 05:30:25 PM user_id(3) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`) VALUES ('comment', 'Done previously', 'active', '3', '2174')
+
+---------------------------------------------------------------------
+
+17-02-2021 05:30:25 PM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','2174','25'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','2174','8'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','2174','2')
+
+---------------------------------------------------------------------
+
+17-02-2021 05:30:31 PM user_id(3) : UPDATE `ticketing` SET `ticketing_current_status` = '3'
+WHERE `ticketing_id` = '2174'
+
+---------------------------------------------------------------------
+
+17-02-2021 05:30:31 PM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','2174','25'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','2174','8'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','2174','2')
+
+---------------------------------------------------------------------
+
+17-02-2021 05:30:32 PM user_id(3) : UPDATE `ticketing` SET `ticketing_current_status` = '3'
+WHERE `ticketing_id` = '2174'
+
+---------------------------------------------------------------------
+
+17-02-2021 05:30:32 PM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','2174','25'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','2174','8'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','2174','2')

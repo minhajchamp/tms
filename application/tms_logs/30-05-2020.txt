@@ -1,0 +1,20 @@
+Log file created at 30-05-2020 11:38:24 AM
+
+---------------------------------------------------------------------
+
+30-05-2020 11:38:24 AM user_id(10) : Logged in.
+
+---------------------------------------------------------------------
+
+30-05-2020 12:41:20 PM user_id(10) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '521'
+AND `user_id` = '10'
+
+---------------------------------------------------------------------
+
+30-05-2020 12:41:24 PM user_id(10) : UPDATE `ticketing` SET `ticketing_current_status` = '8'
+WHERE `ticketing_id` = '521'
+
+---------------------------------------------------------------------
+
+30-05-2020 12:41:24 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Status changed by Maira Sami','ticket','521','3'), ('10','10','unread','active','Status changed by Maira Sami','ticket','521','8'), ('10','10','unread','active','Status changed by Maira Sami','ticket','521','9'), ('10','10','unread','active','Status changed by Maira Sami','ticket','521','2')

@@ -1,0 +1,40 @@
+Log file created at 24-06-2020 10:09:36 AM
+
+---------------------------------------------------------------------
+
+24-06-2020 10:09:36 AM user_id(3) : Logged in.
+
+---------------------------------------------------------------------
+
+24-06-2020 10:25:09 AM user_id(10) : Logged in.
+
+---------------------------------------------------------------------
+
+24-06-2020 03:45:26 PM user_id(10) : Logged in.
+
+---------------------------------------------------------------------
+
+24-06-2020 03:46:10 PM user_id(10) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '967'
+AND `user_id` = '10'
+
+---------------------------------------------------------------------
+
+24-06-2020 04:57:37 PM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '981'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+24-06-2020 04:57:42 PM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '980'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+24-06-2020 04:57:46 PM user_id(3) : UPDATE `ticketing` SET `ticketing_current_status` = '3'
+WHERE `ticketing_id` = '980'
+
+---------------------------------------------------------------------
+
+24-06-2020 04:57:46 PM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','980','10'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','980','8'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','980','9'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','980','2')

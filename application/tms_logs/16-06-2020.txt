@@ -1,0 +1,57 @@
+Log file created at 16-06-2020 10:29:45 AM
+
+---------------------------------------------------------------------
+
+16-06-2020 10:29:45 AM user_id(3) : Logged in.
+
+---------------------------------------------------------------------
+
+16-06-2020 10:30:09 AM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '978'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+16-06-2020 10:30:12 AM user_id(3) : UPDATE `ticketing` SET `assigned_to_user_id` = '3', `assigned_to_user_at` = '2020-06-16 10:30:12', `ticketing_current_status` = 2
+WHERE `ticketing_id` = '978'
+
+---------------------------------------------------------------------
+
+16-06-2020 11:01:27 AM user_id(3) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`) VALUES ('comment', 'masking done&nbsp;', 'active', '3', '978')
+
+---------------------------------------------------------------------
+
+16-06-2020 11:01:27 AM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','978','10'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','978','8'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','978','9'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','978','2')
+
+---------------------------------------------------------------------
+
+16-06-2020 11:01:59 AM user_id(3) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`) VALUES ('comment', 'the client is having own masking therefore i dint change the character limit i.e 320 characters.', 'active', '3', '978')
+
+---------------------------------------------------------------------
+
+16-06-2020 11:01:59 AM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','978','10'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','978','8'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','978','9'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','978','2')
+
+---------------------------------------------------------------------
+
+16-06-2020 03:32:12 PM user_id(3) : Logged in.
+
+---------------------------------------------------------------------
+
+16-06-2020 03:32:18 PM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '978'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+16-06-2020 03:32:21 PM user_id(3) : UPDATE `ticketing` SET `ticketing_current_status` = '3'
+WHERE `ticketing_id` = '978'
+
+---------------------------------------------------------------------
+
+16-06-2020 03:32:21 PM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','978','10'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','978','8'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','978','9'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','978','2')
+
+---------------------------------------------------------------------
+
+16-06-2020 05:11:54 PM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '966'
+AND `user_id` = '3'

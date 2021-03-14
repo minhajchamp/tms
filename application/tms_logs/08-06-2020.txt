@@ -1,0 +1,45 @@
+Log file created at 08-06-2020 12:27:36 PM
+
+---------------------------------------------------------------------
+
+08-06-2020 12:27:36 PM user_id(10) : Logged in.
+
+---------------------------------------------------------------------
+
+08-06-2020 02:50:38 PM user_id(3) : Logged in.
+
+---------------------------------------------------------------------
+
+08-06-2020 02:51:13 PM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '975'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+08-06-2020 02:51:16 PM user_id(3) : UPDATE `ticketing` SET `ticketing_current_status` = '3'
+WHERE `ticketing_id` = '975'
+
+---------------------------------------------------------------------
+
+08-06-2020 02:51:16 PM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','975','10'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','975','8'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','975','9'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','975','2')
+
+---------------------------------------------------------------------
+
+08-06-2020 02:51:25 PM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '974'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+08-06-2020 02:51:28 PM user_id(3) : UPDATE `ticketing` SET `ticketing_current_status` = '3'
+WHERE `ticketing_id` = '974'
+
+---------------------------------------------------------------------
+
+08-06-2020 02:51:28 PM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','974','10'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','974','8'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','974','9'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','974','2')
+
+---------------------------------------------------------------------
+
+08-06-2020 02:51:42 PM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '971'
+AND `user_id` = '3'

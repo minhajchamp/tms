@@ -1,0 +1,107 @@
+Log file created at 09-04-2020 11:16:29 AM
+
+---------------------------------------------------------------------
+
+09-04-2020 11:16:29 AM user_id(10) : Logged in.
+
+---------------------------------------------------------------------
+
+09-04-2020 02:29:50 PM user_id(10) : Logged in.
+
+---------------------------------------------------------------------
+
+09-04-2020 02:30:23 PM user_id(10) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '962'
+AND `user_id` = '10'
+
+---------------------------------------------------------------------
+
+09-04-2020 02:45:43 PM user_id(10) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`) VALUES ('comment', '<p><strong>New Clients:</strong></p><p>1-&nbsp;<!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->HPGS City Model <span style=\"background-color: rgb(255, 255, 0);\">(183.hpgscm.a)</span> Total SMS= <strong>5000</strong> Already sent= <strong>2092</strong>&nbsp;</p><p>2-&nbsp;<!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->The indus school <span style=\"background-color: rgb(255, 255, 0);\">(31.indus.a)</span> Total SMS= <strong>3000</strong> Already sent= <strong>0</strong></p><p>3-&nbsp;<!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->PFS Education System <span style=\"background-color: rgb(255, 255, 0);\">(94.pfs.a) </span>Total SMS= <strong>1000</strong> Already sent= <strong>286</strong></p><p>4-&nbsp;<!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->PFS Education System <span style=\"background-color: rgb(255, 255, 0);\">(95.pfs.a)</span>&nbsp;Total SMS= <strong>2000</strong> Already sent= <strong>1382</strong></p><p>5-&nbsp;<!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->Allied Gulshan hadeed&nbsp; <span style=\"background-color: rgb(255, 255, 0);\">(94.alliedhd.a)</span> Total SMS= <strong>2000</strong> Already sent= <strong>0</strong></p><p>6-&nbsp;<!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->Crescent Academy <span style=\"background-color: rgb(255, 255, 0);\">(22.cresent)</span> Total SMS= <strong>10000</strong> Already sent= <strong>0</strong>&nbsp;</p><p>7-&nbsp;<!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->Sadequain Grammar <span style=\"background-color: rgb(255, 255, 0);\">(111.sadequain.a)</span> Total SMS= <strong>3000</strong> Already sent= <strong>1140</strong></p><p><br></p><p><br></p>', 'active', '10', '962')
+
+---------------------------------------------------------------------
+
+09-04-2020 02:45:43 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','New comment by Maira Sami','ticketing_comment','962','3'), ('10','10','unread','active','New comment by Maira Sami','ticketing_comment','962','8'), ('10','10','unread','active','New comment by Maira Sami','ticketing_comment','962','9'), ('10','10','unread','active','New comment by Maira Sami','ticketing_comment','962','2')
+
+---------------------------------------------------------------------
+
+09-04-2020 02:45:58 PM user_id(10) : UPDATE `ticketing` SET `ticketing_current_status` = '2'
+WHERE `ticketing_id` = '962'
+
+---------------------------------------------------------------------
+
+09-04-2020 02:45:58 PM user_id(10) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('10','10','unread','active','Status changed by Maira Sami','ticket','962','3'), ('10','10','unread','active','Status changed by Maira Sami','ticket','962','8'), ('10','10','unread','active','Status changed by Maira Sami','ticket','962','9'), ('10','10','unread','active','Status changed by Maira Sami','ticket','962','2')
+
+---------------------------------------------------------------------
+
+09-04-2020 03:08:12 PM user_id(3) : Logged in.
+
+---------------------------------------------------------------------
+
+09-04-2020 03:11:47 PM user_id(10) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '962'
+AND `user_id` = '10'
+
+---------------------------------------------------------------------
+
+09-04-2020 03:24:36 PM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '966'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+09-04-2020 04:28:30 PM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '964'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+09-04-2020 05:24:33 PM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '966'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+09-04-2020 05:24:38 PM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '962'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+09-04-2020 07:48:11 PM user_id(3) : Logged in.
+
+---------------------------------------------------------------------
+
+09-04-2020 07:48:16 PM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '964'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+09-04-2020 07:48:20 PM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '964'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+09-04-2020 07:48:24 PM user_id(3) : UPDATE `ticketing` SET `assigned_to_user_id` = '3', `assigned_to_user_at` = '2020-04-09 19:48:24', `ticketing_current_status` = 2
+WHERE `ticketing_id` = '964'
+
+---------------------------------------------------------------------
+
+09-04-2020 07:48:27 PM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '962'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+09-04-2020 10:06:58 PM user_id(9) : Logged in.
+
+---------------------------------------------------------------------
+
+09-04-2020 10:08:10 PM user_id(3) : Logged in.
+
+---------------------------------------------------------------------
+
+09-04-2020 10:08:24 PM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '962'
+AND `user_id` = '3'

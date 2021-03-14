@@ -1,0 +1,38 @@
+Log file created at 13-02-2021 10:51:27 AM
+
+---------------------------------------------------------------------
+
+13-02-2021 10:51:27 AM user_id(25) : Logged in.
+
+---------------------------------------------------------------------
+
+13-02-2021 11:23:41 AM user_id(26) : Logged in.
+
+---------------------------------------------------------------------
+
+13-02-2021 02:42:29 PM user_id(25) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2167'
+AND `user_id` = '25'
+
+---------------------------------------------------------------------
+
+13-02-2021 02:42:32 PM user_id(25) : UPDATE `ticketing` SET `ticketing_current_status` = '5'
+WHERE `ticketing_id` = '2167'
+
+---------------------------------------------------------------------
+
+13-02-2021 02:42:32 PM user_id(25) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('25','25','unread','active','Status changed by Maida Maida','ticket','2167','3'), ('25','25','unread','active','Status changed by Maida Maida','ticket','2167','8'), ('25','25','unread','active','Status changed by Maida Maida','ticket','2167','2')
+
+---------------------------------------------------------------------
+
+13-02-2021 05:14:51 PM user_id(3) : Logged in.
+
+---------------------------------------------------------------------
+
+13-02-2021 05:15:08 PM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2148'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+13-02-2021 05:15:47 PM user_id(3) : Logged out.

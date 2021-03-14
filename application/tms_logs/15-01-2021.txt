@@ -1,0 +1,177 @@
+Log file created at 15-01-2021 09:37:37 AM
+
+---------------------------------------------------------------------
+
+15-01-2021 09:37:37 AM user_id(3) : Logged in.
+
+---------------------------------------------------------------------
+
+15-01-2021 09:43:28 AM user_id(25) : Logged in.
+
+---------------------------------------------------------------------
+
+15-01-2021 09:43:56 AM user_id(25) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `notification_id` = '36447'
+
+---------------------------------------------------------------------
+
+15-01-2021 09:43:58 AM user_id(25) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2053'
+AND `user_id` = '25'
+
+---------------------------------------------------------------------
+
+15-01-2021 10:13:59 AM user_id(26) : Logged in.
+
+---------------------------------------------------------------------
+
+15-01-2021 10:16:05 AM user_id(26) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `notification_id` = '36419'
+
+---------------------------------------------------------------------
+
+15-01-2021 10:16:05 AM user_id(26) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2082'
+AND `user_id` = '26'
+
+---------------------------------------------------------------------
+
+15-01-2021 10:16:21 AM user_id(26) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `notification_id` = '36412'
+
+---------------------------------------------------------------------
+
+15-01-2021 10:16:21 AM user_id(26) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2075'
+AND `user_id` = '26'
+
+---------------------------------------------------------------------
+
+15-01-2021 10:23:06 AM user_id(26) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2082'
+AND `user_id` = '26'
+
+---------------------------------------------------------------------
+
+15-01-2021 10:28:34 AM user_id(26) : INSERT INTO `ticketing_media` (`filename`, `ticketing_media_status`, `ticketing_id`, `user_id`, `file_short_url`) VALUES ('Screenshot_(60).png', 'active', '2082', '26', '678337f28f')
+
+---------------------------------------------------------------------
+
+15-01-2021 10:28:34 AM user_id(26) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`, `ticketing_media_id`) VALUES ('comment', '<p>Dear Zahid Sir,</p><p>Kindly check when user trying to print single voucher of this student (<strong>CID&nbsp;</strong><strong>:</strong>&nbsp;<strong>1038</strong>&nbsp;)voucher is showing blank (<strong>Check Screenshot</strong>) kindly resolve this issue and update.<br></p>', 'active', '26', '2082', 1685)
+
+---------------------------------------------------------------------
+
+15-01-2021 10:28:34 AM user_id(26) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('26','26','unread','active','New comment by Shahzaib Khalid','ticketing_comment','2082','24'), ('26','26','unread','active','New comment by Shahzaib Khalid','ticketing_comment','2082','8'), ('26','26','unread','active','New comment by Shahzaib Khalid','ticketing_comment','2082','2'), ('26','26','unread','active','New comment by Shahzaib Khalid','ticketing_comment','2082','3')
+
+---------------------------------------------------------------------
+
+15-01-2021 10:28:47 AM user_id(26) : UPDATE `ticketing` SET `ticketing_current_status` = '1'
+WHERE `ticketing_id` = '2082'
+
+---------------------------------------------------------------------
+
+15-01-2021 10:28:47 AM user_id(26) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('26','26','unread','active','Status changed by Shahzaib Khalid','ticket','2082','24'), ('26','26','unread','active','Status changed by Shahzaib Khalid','ticket','2082','8'), ('26','26','unread','active','Status changed by Shahzaib Khalid','ticket','2082','2'), ('26','26','unread','active','Status changed by Shahzaib Khalid','ticket','2082','3')
+
+---------------------------------------------------------------------
+
+15-01-2021 10:31:39 AM user_id(26) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2082'
+AND `user_id` = '26'
+
+---------------------------------------------------------------------
+
+15-01-2021 12:03:44 PM user_id(25) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2078'
+AND `user_id` = '25'
+
+---------------------------------------------------------------------
+
+15-01-2021 12:08:13 PM user_id(25) : INSERT INTO `ticketing_media` (`filename`, `ticketing_media_status`, `ticketing_id`, `user_id`, `file_short_url`) VALUES ('WhatsApp_Image_2021-01-15_at_11_30_11_AM.jpeg', 'active', '2078', '25', '74d9e1edc4')
+
+---------------------------------------------------------------------
+
+15-01-2021 12:08:13 PM user_id(25) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`, `ticketing_media_id`) VALUES ('comment', 'In C3 5773 , 5839 , 7559 these three students are not showing in student list kindly check &amp; resolve&nbsp;', 'active', '25', '2078', 1686)
+
+---------------------------------------------------------------------
+
+15-01-2021 12:08:13 PM user_id(25) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('25','25','unread','active','New comment by Maida Maida','ticketing_comment','2078','24'), ('25','25','unread','active','New comment by Maida Maida','ticketing_comment','2078','8'), ('25','25','unread','active','New comment by Maida Maida','ticketing_comment','2078','2'), ('25','25','unread','active','New comment by Maida Maida','ticketing_comment','2078','3')
+
+---------------------------------------------------------------------
+
+15-01-2021 12:46:41 PM user_id(25) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2078'
+AND `user_id` = '25'
+
+---------------------------------------------------------------------
+
+15-01-2021 12:48:05 PM user_id(25) : INSERT INTO `ticketing_media` (`filename`, `ticketing_media_status`, `ticketing_id`, `user_id`, `file_short_url`) VALUES ('WhatsApp_Image_2021-01-15_at_12_45_47_PM_(1).jpeg', 'active', '2078', '25', 'aea07a0015')
+
+---------------------------------------------------------------------
+
+15-01-2021 12:48:05 PM user_id(25) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`, `ticketing_media_id`) VALUES ('comment', 'In C3 9492&nbsp;student&nbsp;are not showing in student list kindly check &amp; resolve this too', 'active', '25', '2078', 1687)
+
+---------------------------------------------------------------------
+
+15-01-2021 12:48:05 PM user_id(25) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('25','25','unread','active','New comment by Maida Maida','ticketing_comment','2078','24'), ('25','25','unread','active','New comment by Maida Maida','ticketing_comment','2078','8'), ('25','25','unread','active','New comment by Maida Maida','ticketing_comment','2078','2'), ('25','25','unread','active','New comment by Maida Maida','ticketing_comment','2078','3')
+
+---------------------------------------------------------------------
+
+15-01-2021 12:49:07 PM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2078'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+15-01-2021 12:50:06 PM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2082'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+15-01-2021 12:50:15 PM user_id(25) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2078'
+AND `user_id` = '25'
+
+---------------------------------------------------------------------
+
+15-01-2021 12:50:21 PM user_id(25) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2078'
+AND `user_id` = '25'
+
+---------------------------------------------------------------------
+
+15-01-2021 12:50:48 PM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2082'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+15-01-2021 03:07:11 PM user_id(3) : INSERT INTO `ticketing_media` (`filename`, `ticketing_media_status`, `ticketing_id`, `user_id`, `file_short_url`) VALUES ('Screenshot_from_2021-01-15_15-07-00.png', 'active', '2082', '3', 'fcbe11d5c7')
+
+---------------------------------------------------------------------
+
+15-01-2021 03:07:11 PM user_id(3) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`, `ticketing_media_id`) VALUES ('comment', '<p>Resolved</p><p><br></p>', 'active', '3', '2082', 1688)
+
+---------------------------------------------------------------------
+
+15-01-2021 03:07:11 PM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','2082','26'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','2082','24'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','2082','8'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','2082','2')
+
+---------------------------------------------------------------------
+
+15-01-2021 03:07:32 PM user_id(3) : UPDATE `ticketing` SET `ticketing_current_status` = '3'
+WHERE `ticketing_id` = '2082'
+
+---------------------------------------------------------------------
+
+15-01-2021 03:07:32 PM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','2082','26'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','2082','24'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','2082','8'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','2082','2')
+
+---------------------------------------------------------------------
+
+15-01-2021 03:44:10 PM user_id(26) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `notification_id` = '36473'
+
+---------------------------------------------------------------------
+
+15-01-2021 03:44:11 PM user_id(26) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2082'
+AND `user_id` = '26'

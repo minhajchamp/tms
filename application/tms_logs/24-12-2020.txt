@@ -1,0 +1,46 @@
+Log file created at 24-12-2020 10:52:34 AM
+
+---------------------------------------------------------------------
+
+24-12-2020 10:52:34 AM user_id(3) : Logged in.
+
+---------------------------------------------------------------------
+
+24-12-2020 10:58:06 AM user_id(25) : Logged in.
+
+---------------------------------------------------------------------
+
+24-12-2020 12:42:11 PM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2054'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+24-12-2020 12:42:44 PM user_id(3) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`) VALUES ('comment', 'kindly check and update', 'active', '3', '2054')
+
+---------------------------------------------------------------------
+
+24-12-2020 12:42:44 PM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','2054','26'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','2054','24'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','2054','8'), ('3','3','unread','active','New comment by Muhammad Zahid','ticketing_comment','2054','2')
+
+---------------------------------------------------------------------
+
+24-12-2020 12:42:50 PM user_id(3) : UPDATE `ticketing` SET `ticketing_current_status` = '3'
+WHERE `ticketing_id` = '2054'
+
+---------------------------------------------------------------------
+
+24-12-2020 12:42:50 PM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','2054','26'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','2054','24'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','2054','8'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','2054','2')
+
+---------------------------------------------------------------------
+
+24-12-2020 02:39:33 PM user_id(25) : Logged in.
+
+---------------------------------------------------------------------
+
+24-12-2020 03:52:18 PM user_id(24) : Logged in.
+
+---------------------------------------------------------------------
+
+24-12-2020 03:52:31 PM user_id(24) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2054'
+AND `user_id` = '24'

@@ -1,0 +1,29 @@
+Log file created at 13-05-2020 12:18:49 AM
+
+---------------------------------------------------------------------
+
+13-05-2020 12:18:49 AM user_id(3) : Logged in.
+
+---------------------------------------------------------------------
+
+13-05-2020 12:18:52 AM user_id(3) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '969'
+AND `user_id` = '3'
+
+---------------------------------------------------------------------
+
+13-05-2020 12:18:57 AM user_id(3) : UPDATE `ticketing` SET `ticketing_current_status` = '2'
+WHERE `ticketing_id` = '969'
+
+---------------------------------------------------------------------
+
+13-05-2020 12:18:57 AM user_id(3) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','969','10'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','969','8'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','969','9'), ('3','3','unread','active','Status changed by Muhammad Zahid','ticket','969','2')
+
+---------------------------------------------------------------------
+
+13-05-2020 12:19:02 AM user_id(3) : UPDATE `ticketing` SET `assigned_to_user_id` = '3', `assigned_to_user_at` = '2020-05-13 00:19:02', `ticketing_current_status` = 2
+WHERE `ticketing_id` = '969'
+
+---------------------------------------------------------------------
+
+13-05-2020 04:24:18 PM user_id(10) : Logged in.

@@ -1,0 +1,126 @@
+Log file created at 17-12-2020 09:26:22 AM
+
+---------------------------------------------------------------------
+
+17-12-2020 09:26:22 AM user_id(3) : Logged in.
+
+---------------------------------------------------------------------
+
+17-12-2020 09:51:47 AM user_id(26) : Logged in.
+
+---------------------------------------------------------------------
+
+17-12-2020 10:23:48 AM user_id(25) : Logged in.
+
+---------------------------------------------------------------------
+
+17-12-2020 10:50:20 AM user_id(26) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2051'
+AND `user_id` = '26'
+
+---------------------------------------------------------------------
+
+17-12-2020 10:54:55 AM user_id(26) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`) VALUES ('comment', '<p>Dear Zahid Sir,</p><p>Kindly Check (CID=2773 &amp; Family No : 145) Student Name is : Muhammad Huzefa Khan and His Father Name is : Noman Ahmed. But when client print its fee receipt his father name is showing wrong Like :&nbsp;<strong>Hafeez Ur Rehman.&nbsp;</strong>kindly resolve this issue and update.<br></p>', 'active', '26', '2051')
+
+---------------------------------------------------------------------
+
+17-12-2020 10:54:55 AM user_id(26) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('26','26','unread','active','New comment by Shahzaib Khalid','ticketing_comment','2051','24'), ('26','26','unread','active','New comment by Shahzaib Khalid','ticketing_comment','2051','8'), ('26','26','unread','active','New comment by Shahzaib Khalid','ticketing_comment','2051','2'), ('26','26','unread','active','New comment by Shahzaib Khalid','ticketing_comment','2051','3')
+
+---------------------------------------------------------------------
+
+17-12-2020 10:56:28 AM user_id(26) : INSERT INTO `ticketing_media` (`filename`, `ticketing_media_status`, `ticketing_id`, `user_id`, `file_short_url`) VALUES ('pdfreceipt5755.pdf', 'active', '2051', '26', 'e04c1d777d')
+
+---------------------------------------------------------------------
+
+17-12-2020 10:56:28 AM user_id(26) : INSERT INTO `ticketing_comment` (`comments_type`, `ticketing_comment_text`, `ticketing_comment_status`, `user_id`, `ticketing_id`, `ticketing_media_id`) VALUES ('comment', 'Check PDF File of fee receipt of this student', 'active', '26', '2051', 1635)
+
+---------------------------------------------------------------------
+
+17-12-2020 10:56:28 AM user_id(26) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('26','26','unread','active','New comment by Shahzaib Khalid','ticketing_comment','2051','24'), ('26','26','unread','active','New comment by Shahzaib Khalid','ticketing_comment','2051','8'), ('26','26','unread','active','New comment by Shahzaib Khalid','ticketing_comment','2051','2'), ('26','26','unread','active','New comment by Shahzaib Khalid','ticketing_comment','2051','3')
+
+---------------------------------------------------------------------
+
+17-12-2020 10:56:39 AM user_id(26) : UPDATE `ticketing` SET `ticketing_current_status` = '2'
+WHERE `ticketing_id` = '2051'
+
+---------------------------------------------------------------------
+
+17-12-2020 10:56:39 AM user_id(26) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('26','26','unread','active','Status changed by Shahzaib Khalid','ticket','2051','24'), ('26','26','unread','active','Status changed by Shahzaib Khalid','ticket','2051','8'), ('26','26','unread','active','Status changed by Shahzaib Khalid','ticket','2051','2'), ('26','26','unread','active','Status changed by Shahzaib Khalid','ticket','2051','3')
+
+---------------------------------------------------------------------
+
+17-12-2020 11:20:30 AM user_id(26) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2051'
+AND `user_id` = '26'
+
+---------------------------------------------------------------------
+
+17-12-2020 11:57:56 AM user_id(26) : INSERT INTO `ticketing` (`generated_by_user_id`, `ticketing_titile`, `preferred_user_id`, `generated_by_department_id`, `assigned_to_department_id`, `school_id`, `campus_id`, `product_id`, `module_id`, `priority_id`, `user_school_id`, `ticketing_min_resolve_time`, `ticketing_max_resolve_time`, `ticketing_query`, `query_type_id`, `ticketing_current_status`, `query_generated_by_id`, `ticketing_status`) VALUES ('26', 'Not Saving Student Information', '', '3', '1', '40', '', '7', '', '4', '', '2020-12-17 00:00:00', '2020-12-17 00:00:00', '<p>Dear Sir Zahid,</p><p>Kindly check CID=11201 Student Name is : Muhammad Hunain Gulam and he was in&nbsp;the Class 3. When user is changing his status from active to withdrawn its class will automatically changed To Class 2 on his profile. Adnan sir also try to change class from SQL but its not working. kindly resolve this issue and update.&nbsp;</p>', '3', 1, '3', 'active')
+
+---------------------------------------------------------------------
+
+17-12-2020 11:57:56 AM user_id(26) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('26','26','unread','active','New ticket created by Shahzaib Khalid','ticket',2055,'8'), ('26','26','unread','active','New ticket created by Shahzaib Khalid','ticket',2055,'2'), ('26','26','unread','active','New ticket created by Shahzaib Khalid','ticket',2055,'3')
+
+---------------------------------------------------------------------
+
+17-12-2020 04:03:46 PM user_id(25) : INSERT INTO `ticketing` (`generated_by_user_id`, `ticketing_titile`, `preferred_user_id`, `generated_by_department_id`, `assigned_to_department_id`, `school_id`, `campus_id`, `product_id`, `module_id`, `priority_id`, `user_school_id`, `ticketing_min_resolve_time`, `ticketing_max_resolve_time`, `ticketing_query`, `query_type_id`, `ticketing_current_status`, `query_generated_by_id`, `ticketing_status`) VALUES ('25', 'Grand total ', '', '3', '1', '188', '', '7', '', '4', '', '2020-12-17 00:00:00', '2020-12-17 00:00:00', '<p>Dear sir zahid,</p><p>In fee reports (student wise fee detail) we need grand total in last of the report</p>', '2', 1, '1', 'active')
+
+---------------------------------------------------------------------
+
+17-12-2020 04:03:46 PM user_id(25) : INSERT INTO `ticketing_media` (`filename`, `ticketing_media_status`, `ticketing_id`, `user_id`, `file_short_url`) VALUES ('Screenshot_(45).png', 'active', 2056, '25', '0dbab562fb')
+
+---------------------------------------------------------------------
+
+17-12-2020 04:03:46 PM user_id(25) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('25','25','unread','active','New ticket created by Maida Maida','ticket',2056,'8'), ('25','25','unread','active','New ticket created by Maida Maida','ticket',2056,'2'), ('25','25','unread','active','New ticket created by Maida Maida','ticket',2056,'3')
+
+---------------------------------------------------------------------
+
+17-12-2020 04:58:00 PM user_id(25) : INSERT INTO `ticketing` (`generated_by_user_id`, `ticketing_titile`, `preferred_user_id`, `generated_by_department_id`, `assigned_to_department_id`, `school_id`, `campus_id`, `product_id`, `module_id`, `priority_id`, `user_school_id`, `ticketing_min_resolve_time`, `ticketing_max_resolve_time`, `ticketing_query`, `query_type_id`, `ticketing_current_status`, `query_generated_by_id`, `ticketing_status`) VALUES ('25', 'Test report card is not working', '', '3', '1', '196', '', '7', '', '2', '', '2020-12-17 00:00:00', '2020-12-17 00:00:00', '<p>Dear sir zahid,</p><p>In print report cards module test report card option is not working kindly resolve this&nbsp;&nbsp;</p>', '3', 1, '4', 'active')
+
+---------------------------------------------------------------------
+
+17-12-2020 04:58:00 PM user_id(25) : INSERT INTO `ticketing_media` (`filename`, `ticketing_media_status`, `ticketing_id`, `user_id`, `file_short_url`) VALUES ('Screenshot_(46).png', 'active', 2057, '25', 'e728952905')
+
+---------------------------------------------------------------------
+
+17-12-2020 04:58:00 PM user_id(25) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('25','25','unread','active','New ticket created by Maida Maida','ticket',2057,'8'), ('25','25','unread','active','New ticket created by Maida Maida','ticket',2057,'2'), ('25','25','unread','active','New ticket created by Maida Maida','ticket',2057,'3')
+
+---------------------------------------------------------------------
+
+17-12-2020 05:00:24 PM user_id(25) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2052'
+AND `user_id` = '25'
+
+---------------------------------------------------------------------
+
+17-12-2020 05:03:52 PM user_id(25) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2052'
+AND `user_id` = '25'
+
+---------------------------------------------------------------------
+
+17-12-2020 05:06:42 PM user_id(24) : Logged in.
+
+---------------------------------------------------------------------
+
+17-12-2020 05:06:55 PM user_id(25) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2052'
+AND `user_id` = '25'
+
+---------------------------------------------------------------------
+
+17-12-2020 05:23:55 PM user_id(25) : INSERT INTO `ticketing` (`generated_by_user_id`, `ticketing_titile`, `preferred_user_id`, `generated_by_department_id`, `assigned_to_department_id`, `school_id`, `campus_id`, `product_id`, `module_id`, `priority_id`, `user_school_id`, `ticketing_min_resolve_time`, `ticketing_max_resolve_time`, `ticketing_query`, `query_type_id`, `ticketing_current_status`, `query_generated_by_id`, `ticketing_status`) VALUES ('25', 'In new admissions list student showing many time', '', '3', '1', '46', '', '7', '', '4', '', '2020-12-17 00:00:00', '2020-12-17 00:00:00', '<p>Dear sir zahid,</p><p>kindly check this in admission reports module&nbsp; when we generate new admission reports . students name and CID\'s showing duplicate values kindly resolve this as soon as possible&nbsp;<br></p>', '3', 1, '3', 'active')
+
+---------------------------------------------------------------------
+
+17-12-2020 05:23:55 PM user_id(25) : INSERT INTO `ticketing_media` (`filename`, `ticketing_media_status`, `ticketing_id`, `user_id`, `file_short_url`) VALUES ('Screenshot_(48).png', 'active', 2058, '25', '5e0948e16c')
+
+---------------------------------------------------------------------
+
+17-12-2020 05:23:55 PM user_id(25) : INSERT INTO `notification` (`from_user_id`, `notification_activity_by`, `notification_read_status`, `notification_status`, `notification_text`, `notification_type`, `ticketing_id`, `user_id`) VALUES ('25','25','unread','active','New ticket created by Maida Maida','ticket',2058,'8'), ('25','25','unread','active','New ticket created by Maida Maida','ticket',2058,'2'), ('25','25','unread','active','New ticket created by Maida Maida','ticket',2058,'3')
+
+---------------------------------------------------------------------
+
+17-12-2020 06:21:29 PM user_id(24) : UPDATE `notification` SET `notification_read_status` = 'read'
+WHERE `ticketing_id` = '2052'
+AND `user_id` = '24'
